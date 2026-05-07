@@ -1,0 +1,610 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frm_ExpAssortSizing
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.HazelDev_ThemeContainer1 = New DiaStock.HazelDev_ThemeContainer()
+        Me.chkCont = New DiaStock.HazelDev_CheckBox()
+        Me.txtValue = New System.Windows.Forms.TextBox()
+        Me.txtPlanValue = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.txtEmpNo = New System.Windows.Forms.TextBox()
+        Me.cmdAdd = New DiaStock.HazelDev_Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.txtAssortment = New System.Windows.Forms.TextBox()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Type = New System.Windows.Forms.Label()
+        Me.txtNewPcs = New System.Windows.Forms.TextBox()
+        Me.txtNewCts = New System.Windows.Forms.TextBox()
+        Me.cmbAssort = New System.Windows.Forms.ComboBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.txtPktNo = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.txtParNo = New System.Windows.Forms.TextBox()
+        Me.cmbDept = New System.Windows.Forms.ComboBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.cmdExcel = New DiaStock.HazelDev_Button()
+        Me.txtPcs = New System.Windows.Forms.TextBox()
+        Me.txtCts = New System.Windows.Forms.TextBox()
+        Me.txtTotPcs = New System.Windows.Forms.TextBox()
+        Me.txtTotCts = New System.Windows.Forms.TextBox()
+        Me.flxDetails = New System.Windows.Forms.DataGridView()
+        Me.Code = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PktNo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Assortment = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Pcs = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cts = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.HazelDev_Panel1 = New DiaStock.HazelDev_Panel()
+        Me.cmdUpdateAssort = New DiaStock.HazelDev_Button()
+        Me.cmdDelete = New DiaStock.HazelDev_Button()
+        Me.cmdUpdate = New DiaStock.HazelDev_Button()
+        Me.cmdSave = New DiaStock.HazelDev_Button()
+        Me.cmdExit = New DiaStock.HazelDev_Button()
+        Me.cmdNew = New DiaStock.HazelDev_Button()
+        Me.HazelDev_ThemeContainer1.SuspendLayout()
+        CType(Me.flxDetails, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.HazelDev_Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'HazelDev_ThemeContainer1
+        '
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.chkCont)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtValue)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtPlanValue)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label23)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtEmpNo)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.cmdAdd)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label12)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtAssortment)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label36)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label35)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Type)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtNewPcs)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtNewCts)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.cmbAssort)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label42)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtPktNo)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label41)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtParNo)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.cmbDept)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.Label10)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.cmdExcel)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtPcs)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtCts)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtTotPcs)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.txtTotCts)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.flxDetails)
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.HazelDev_Panel1)
+        Me.HazelDev_ThemeContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.HazelDev_ThemeContainer1.DrawBottomLine = False
+        Me.HazelDev_ThemeContainer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.HazelDev_ThemeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.HazelDev_ThemeContainer1.Name = "HazelDev_ThemeContainer1"
+        Me.HazelDev_ThemeContainer1.Size = New System.Drawing.Size(696, 654)
+        Me.HazelDev_ThemeContainer1.TabIndex = 7
+        Me.HazelDev_ThemeContainer1.Text = "SORTING FIRST SIZNG"
+        Me.HazelDev_ThemeContainer1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'chkCont
+        '
+        Me.chkCont.Checked = False
+        Me.chkCont.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.chkCont.Location = New System.Drawing.Point(534, 626)
+        Me.chkCont.Name = "chkCont"
+        Me.chkCont.Size = New System.Drawing.Size(84, 16)
+        Me.chkCont.TabIndex = 180
+        Me.chkCont.Text = "Continue"
+        Me.chkCont.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'txtValue
+        '
+        Me.txtValue.Location = New System.Drawing.Point(443, 623)
+        Me.txtValue.Name = "txtValue"
+        Me.txtValue.ReadOnly = True
+        Me.txtValue.Size = New System.Drawing.Size(77, 21)
+        Me.txtValue.TabIndex = 179
+        Me.txtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtPlanValue
+        '
+        Me.txtPlanValue.Location = New System.Drawing.Point(193, 623)
+        Me.txtPlanValue.Name = "txtPlanValue"
+        Me.txtPlanValue.ReadOnly = True
+        Me.txtPlanValue.Size = New System.Drawing.Size(77, 21)
+        Me.txtPlanValue.TabIndex = 178
+        Me.txtPlanValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.Color.Transparent
+        Me.Label23.Location = New System.Drawing.Point(531, 589)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(55, 15)
+        Me.Label23.TabIndex = 177
+        Me.Label23.Text = "Emp No."
+        '
+        'txtEmpNo
+        '
+        Me.txtEmpNo.Location = New System.Drawing.Point(592, 590)
+        Me.txtEmpNo.MaxLength = 6
+        Me.txtEmpNo.Name = "txtEmpNo"
+        Me.txtEmpNo.Size = New System.Drawing.Size(74, 21)
+        Me.txtEmpNo.TabIndex = 176
+        '
+        'cmdAdd
+        '
+        Me.cmdAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdAdd.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdAdd.FlatAppearance.BorderSize = 0
+        Me.cmdAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdAdd.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdAdd.ForeColor = System.Drawing.Color.White
+        Me.cmdAdd.Location = New System.Drawing.Point(634, 116)
+        Me.cmdAdd.Name = "cmdAdd"
+        Me.cmdAdd.Size = New System.Drawing.Size(56, 28)
+        Me.cmdAdd.TabIndex = 53
+        Me.cmdAdd.Text = "Add"
+        Me.cmdAdd.UseVisualStyleBackColor = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Location = New System.Drawing.Point(358, 106)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(31, 15)
+        Me.Label12.TabIndex = 175
+        Me.Label12.Text = "Size"
+        '
+        'txtAssortment
+        '
+        Me.txtAssortment.Location = New System.Drawing.Point(361, 123)
+        Me.txtAssortment.MaxLength = 12
+        Me.txtAssortment.Name = "txtAssortment"
+        Me.txtAssortment.Size = New System.Drawing.Size(133, 21)
+        Me.txtAssortment.TabIndex = 174
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Location = New System.Drawing.Point(564, 106)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(24, 15)
+        Me.Label36.TabIndex = 173
+        Me.Label36.Text = "Cts"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.Color.Transparent
+        Me.Label35.Location = New System.Drawing.Point(497, 106)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(27, 15)
+        Me.Label35.TabIndex = 172
+        Me.Label35.Text = "Pcs"
+        '
+        'Type
+        '
+        Me.Type.AutoSize = True
+        Me.Type.BackColor = System.Drawing.Color.Transparent
+        Me.Type.Location = New System.Drawing.Point(276, 106)
+        Me.Type.Name = "Type"
+        Me.Type.Size = New System.Drawing.Size(33, 15)
+        Me.Type.TabIndex = 171
+        Me.Type.Text = "Type"
+        '
+        'txtNewPcs
+        '
+        Me.txtNewPcs.Location = New System.Drawing.Point(500, 123)
+        Me.txtNewPcs.Name = "txtNewPcs"
+        Me.txtNewPcs.Size = New System.Drawing.Size(61, 21)
+        Me.txtNewPcs.TabIndex = 170
+        Me.txtNewPcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtNewCts
+        '
+        Me.txtNewCts.Location = New System.Drawing.Point(567, 123)
+        Me.txtNewCts.Name = "txtNewCts"
+        Me.txtNewCts.Size = New System.Drawing.Size(61, 21)
+        Me.txtNewCts.TabIndex = 169
+        Me.txtNewCts.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'cmbAssort
+        '
+        Me.cmbAssort.FormattingEnabled = True
+        Me.cmbAssort.IntegralHeight = False
+        Me.cmbAssort.Location = New System.Drawing.Point(279, 123)
+        Me.cmbAssort.Name = "cmbAssort"
+        Me.cmbAssort.Size = New System.Drawing.Size(76, 23)
+        Me.cmbAssort.TabIndex = 168
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
+        Me.Label42.Location = New System.Drawing.Point(215, 106)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(46, 15)
+        Me.Label42.TabIndex = 167
+        Me.Label42.Text = "Pkt No."
+        '
+        'txtPktNo
+        '
+        Me.txtPktNo.Location = New System.Drawing.Point(217, 124)
+        Me.txtPktNo.Name = "txtPktNo"
+        Me.txtPktNo.Size = New System.Drawing.Size(53, 21)
+        Me.txtPktNo.TabIndex = 166
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.Transparent
+        Me.Label41.Location = New System.Drawing.Point(112, 106)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(64, 15)
+        Me.Label41.TabIndex = 165
+        Me.Label41.Text = "Parcel No."
+        '
+        'txtParNo
+        '
+        Me.txtParNo.Location = New System.Drawing.Point(114, 124)
+        Me.txtParNo.Name = "txtParNo"
+        Me.txtParNo.Size = New System.Drawing.Size(97, 21)
+        Me.txtParNo.TabIndex = 164
+        '
+        'cmbDept
+        '
+        Me.cmbDept.FormattingEnabled = True
+        Me.cmbDept.IntegralHeight = False
+        Me.cmbDept.Location = New System.Drawing.Point(7, 124)
+        Me.cmbDept.Name = "cmbDept"
+        Me.cmbDept.Size = New System.Drawing.Size(99, 23)
+        Me.cmbDept.TabIndex = 163
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(4, 106)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(72, 15)
+        Me.Label10.TabIndex = 162
+        Me.Label10.Text = "Department"
+        '
+        'cmdExcel
+        '
+        Me.cmdExcel.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdExcel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdExcel.FlatAppearance.BorderSize = 0
+        Me.cmdExcel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdExcel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdExcel.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdExcel.ForeColor = System.Drawing.Color.White
+        Me.cmdExcel.Location = New System.Drawing.Point(7, 623)
+        Me.cmdExcel.Name = "cmdExcel"
+        Me.cmdExcel.Size = New System.Drawing.Size(99, 28)
+        Me.cmdExcel.TabIndex = 161
+        Me.cmdExcel.Text = "Excel"
+        Me.cmdExcel.UseVisualStyleBackColor = False
+        '
+        'txtPcs
+        '
+        Me.txtPcs.Location = New System.Drawing.Point(360, 589)
+        Me.txtPcs.Name = "txtPcs"
+        Me.txtPcs.ReadOnly = True
+        Me.txtPcs.Size = New System.Drawing.Size(77, 21)
+        Me.txtPcs.TabIndex = 160
+        Me.txtPcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtCts
+        '
+        Me.txtCts.Location = New System.Drawing.Point(443, 589)
+        Me.txtCts.Name = "txtCts"
+        Me.txtCts.ReadOnly = True
+        Me.txtCts.Size = New System.Drawing.Size(77, 21)
+        Me.txtCts.TabIndex = 159
+        Me.txtCts.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtTotPcs
+        '
+        Me.txtTotPcs.Location = New System.Drawing.Point(193, 589)
+        Me.txtTotPcs.Name = "txtTotPcs"
+        Me.txtTotPcs.ReadOnly = True
+        Me.txtTotPcs.Size = New System.Drawing.Size(77, 21)
+        Me.txtTotPcs.TabIndex = 158
+        Me.txtTotPcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtTotCts
+        '
+        Me.txtTotCts.Location = New System.Drawing.Point(276, 589)
+        Me.txtTotCts.Name = "txtTotCts"
+        Me.txtTotCts.ReadOnly = True
+        Me.txtTotCts.Size = New System.Drawing.Size(77, 21)
+        Me.txtTotCts.TabIndex = 157
+        Me.txtTotCts.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'flxDetails
+        '
+        Me.flxDetails.AllowUserToAddRows = False
+        Me.flxDetails.AllowUserToDeleteRows = False
+        Me.flxDetails.AllowUserToResizeColumns = False
+        Me.flxDetails.AllowUserToResizeRows = False
+        Me.flxDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.flxDetails.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Code, Me.PktNo, Me.Assortment, Me.Pcs, Me.Cts, Me.Column1, Me.Column3, Me.Column2})
+        Me.flxDetails.Location = New System.Drawing.Point(3, 153)
+        Me.flxDetails.Name = "flxDetails"
+        Me.flxDetails.ReadOnly = True
+        Me.flxDetails.RowHeadersVisible = False
+        Me.flxDetails.Size = New System.Drawing.Size(687, 430)
+        Me.flxDetails.TabIndex = 43
+        '
+        'Code
+        '
+        Me.Code.HeaderText = "Parcel No."
+        Me.Code.Name = "Code"
+        Me.Code.ReadOnly = True
+        '
+        'PktNo
+        '
+        Me.PktNo.HeaderText = "Pkt No"
+        Me.PktNo.Name = "PktNo"
+        Me.PktNo.ReadOnly = True
+        Me.PktNo.Width = 70
+        '
+        'Assortment
+        '
+        Me.Assortment.HeaderText = "Assortment"
+        Me.Assortment.Name = "Assortment"
+        Me.Assortment.ReadOnly = True
+        '
+        'Pcs
+        '
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Pcs.DefaultCellStyle = DataGridViewCellStyle1
+        Me.Pcs.HeaderText = "Pcs"
+        Me.Pcs.Name = "Pcs"
+        Me.Pcs.ReadOnly = True
+        Me.Pcs.Width = 80
+        '
+        'Cts
+        '
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Cts.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Cts.HeaderText = "Cts"
+        Me.Cts.Name = "Cts"
+        Me.Cts.ReadOnly = True
+        Me.Cts.Width = 80
+        '
+        'Column1
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column1.HeaderText = "Price"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "ID"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.Visible = False
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Value"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        '
+        'HazelDev_Panel1
+        '
+        Me.HazelDev_Panel1.BackColor = System.Drawing.Color.White
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdUpdateAssort)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdDelete)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdUpdate)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdSave)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdExit)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdNew)
+        Me.HazelDev_Panel1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.HazelDev_Panel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.HazelDev_Panel1.Location = New System.Drawing.Point(3, 54)
+        Me.HazelDev_Panel1.Name = "HazelDev_Panel1"
+        Me.HazelDev_Panel1.Size = New System.Drawing.Size(687, 49)
+        Me.HazelDev_Panel1.TabIndex = 31
+        Me.HazelDev_Panel1.Text = "HazelDev_Panel1"
+        Me.HazelDev_Panel1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'cmdUpdateAssort
+        '
+        Me.cmdUpdateAssort.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.cmdUpdateAssort.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdUpdateAssort.FlatAppearance.BorderSize = 0
+        Me.cmdUpdateAssort.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdUpdateAssort.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdUpdateAssort.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdUpdateAssort.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdUpdateAssort.ForeColor = System.Drawing.Color.White
+        Me.cmdUpdateAssort.Location = New System.Drawing.Point(319, 13)
+        Me.cmdUpdateAssort.Name = "cmdUpdateAssort"
+        Me.cmdUpdateAssort.Size = New System.Drawing.Size(99, 28)
+        Me.cmdUpdateAssort.TabIndex = 164
+        Me.cmdUpdateAssort.Text = "Update Assort"
+        Me.cmdUpdateAssort.UseVisualStyleBackColor = False
+        '
+        'cmdDelete
+        '
+        Me.cmdDelete.BackColor = System.Drawing.Color.Red
+        Me.cmdDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdDelete.FlatAppearance.BorderSize = 0
+        Me.cmdDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdDelete.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdDelete.ForeColor = System.Drawing.Color.White
+        Me.cmdDelete.Location = New System.Drawing.Point(477, 13)
+        Me.cmdDelete.Name = "cmdDelete"
+        Me.cmdDelete.Size = New System.Drawing.Size(99, 28)
+        Me.cmdDelete.TabIndex = 163
+        Me.cmdDelete.Text = "Delete"
+        Me.cmdDelete.UseVisualStyleBackColor = False
+        '
+        'cmdUpdate
+        '
+        Me.cmdUpdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdUpdate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdUpdate.FlatAppearance.BorderSize = 0
+        Me.cmdUpdate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdUpdate.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdUpdate.ForeColor = System.Drawing.Color.White
+        Me.cmdUpdate.Location = New System.Drawing.Point(582, 13)
+        Me.cmdUpdate.Name = "cmdUpdate"
+        Me.cmdUpdate.Size = New System.Drawing.Size(99, 28)
+        Me.cmdUpdate.TabIndex = 162
+        Me.cmdUpdate.Text = "Update Price"
+        Me.cmdUpdate.UseVisualStyleBackColor = False
+        '
+        'cmdSave
+        '
+        Me.cmdSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdSave.FlatAppearance.BorderSize = 0
+        Me.cmdSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdSave.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdSave.ForeColor = System.Drawing.Color.White
+        Me.cmdSave.Location = New System.Drawing.Point(214, 13)
+        Me.cmdSave.Name = "cmdSave"
+        Me.cmdSave.Size = New System.Drawing.Size(99, 28)
+        Me.cmdSave.TabIndex = 45
+        Me.cmdSave.Text = "Save"
+        Me.cmdSave.UseVisualStyleBackColor = False
+        '
+        'cmdExit
+        '
+        Me.cmdExit.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdExit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdExit.FlatAppearance.BorderSize = 0
+        Me.cmdExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdExit.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdExit.ForeColor = System.Drawing.Color.White
+        Me.cmdExit.Location = New System.Drawing.Point(4, 13)
+        Me.cmdExit.Name = "cmdExit"
+        Me.cmdExit.Size = New System.Drawing.Size(99, 28)
+        Me.cmdExit.TabIndex = 32
+        Me.cmdExit.Text = "Exit"
+        Me.cmdExit.UseVisualStyleBackColor = False
+        '
+        'cmdNew
+        '
+        Me.cmdNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdNew.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdNew.FlatAppearance.BorderSize = 0
+        Me.cmdNew.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdNew.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdNew.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdNew.ForeColor = System.Drawing.Color.White
+        Me.cmdNew.Location = New System.Drawing.Point(109, 13)
+        Me.cmdNew.Name = "cmdNew"
+        Me.cmdNew.Size = New System.Drawing.Size(99, 28)
+        Me.cmdNew.TabIndex = 31
+        Me.cmdNew.Text = "New"
+        Me.cmdNew.UseVisualStyleBackColor = False
+        '
+        'frm_ExpAssortSizing
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(696, 654)
+        Me.Controls.Add(Me.HazelDev_ThemeContainer1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.Name = "frm_ExpAssortSizing"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Sorting First Sizing"
+        Me.HazelDev_ThemeContainer1.ResumeLayout(False)
+        Me.HazelDev_ThemeContainer1.PerformLayout()
+        CType(Me.flxDetails, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.HazelDev_Panel1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents HazelDev_ThemeContainer1 As DiaStock.HazelDev_ThemeContainer
+    Friend WithEvents cmdExcel As DiaStock.HazelDev_Button
+    Friend WithEvents txtPcs As System.Windows.Forms.TextBox
+    Friend WithEvents txtCts As System.Windows.Forms.TextBox
+    Friend WithEvents txtTotPcs As System.Windows.Forms.TextBox
+    Friend WithEvents txtTotCts As System.Windows.Forms.TextBox
+    Friend WithEvents flxDetails As System.Windows.Forms.DataGridView
+    Friend WithEvents HazelDev_Panel1 As DiaStock.HazelDev_Panel
+    Friend WithEvents cmdAdd As DiaStock.HazelDev_Button
+    Friend WithEvents cmdSave As DiaStock.HazelDev_Button
+    Friend WithEvents cmdExit As DiaStock.HazelDev_Button
+    Friend WithEvents cmdNew As DiaStock.HazelDev_Button
+    Friend WithEvents Label42 As System.Windows.Forms.Label
+    Friend WithEvents txtPktNo As System.Windows.Forms.TextBox
+    Friend WithEvents Label41 As System.Windows.Forms.Label
+    Friend WithEvents txtParNo As System.Windows.Forms.TextBox
+    Friend WithEvents cmbDept As System.Windows.Forms.ComboBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents txtAssortment As System.Windows.Forms.TextBox
+    Friend WithEvents Label36 As System.Windows.Forms.Label
+    Friend WithEvents Label35 As System.Windows.Forms.Label
+    Friend WithEvents Type As System.Windows.Forms.Label
+    Friend WithEvents txtNewPcs As System.Windows.Forms.TextBox
+    Friend WithEvents txtNewCts As System.Windows.Forms.TextBox
+    Friend WithEvents cmbAssort As System.Windows.Forms.ComboBox
+    Friend WithEvents cmdUpdate As DiaStock.HazelDev_Button
+    Friend WithEvents cmdDelete As DiaStock.HazelDev_Button
+    Friend WithEvents cmdUpdateAssort As DiaStock.HazelDev_Button
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents txtEmpNo As System.Windows.Forms.TextBox
+    Friend WithEvents txtPlanValue As System.Windows.Forms.TextBox
+    Friend WithEvents txtValue As System.Windows.Forms.TextBox
+    Friend WithEvents Code As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents PktNo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Assortment As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Pcs As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Cts As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents chkCont As DiaStock.HazelDev_CheckBox
+End Class

@@ -1,0 +1,1936 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frm_DCLReportsCommon
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.HazelDev_ThemeContainer1 = New DiaStock.HazelDev_ThemeContainer()
+        Me.HazelDev_Panel1 = New DiaStock.HazelDev_Panel()
+        Me.HazelDev_Button82 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button81 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button80 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button79 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button78 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button77 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button76 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button75 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button74 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button73 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button72 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button71 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button70 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button69 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button68 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button67 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button66 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button65 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button64 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button63 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button62 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button61 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button60 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button59 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button58 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button57 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button56 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button55 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button54 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button53 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button52 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button51 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button50 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button49 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button48 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button47 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button46 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button45 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button44 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button43 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button42 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button41 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button40 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button39 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button38 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button37 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button36 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button35 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button34 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button33 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button32 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button31 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button30 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button29 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button28 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button27 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button26 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button25 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button24 = New DiaStock.HazelDev_Button()
+        Me.cmdTest = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button23 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button22 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button21 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button20 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button19 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button18 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button17 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button16 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button15 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button14 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button13 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button12 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button11 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button10 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button9 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button8 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button7 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button6 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button5 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button4 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button3 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button2 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button1 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button83 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button84 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button85 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button86 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button87 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button88 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button89 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button90 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button91 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_Button92 = New DiaStock.HazelDev_Button()
+        Me.HazelDev_ThemeContainer1.SuspendLayout()
+        Me.HazelDev_Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'HazelDev_ThemeContainer1
+        '
+        Me.HazelDev_ThemeContainer1.Controls.Add(Me.HazelDev_Panel1)
+        Me.HazelDev_ThemeContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.HazelDev_ThemeContainer1.DrawBottomLine = False
+        Me.HazelDev_ThemeContainer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.HazelDev_ThemeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.HazelDev_ThemeContainer1.Name = "HazelDev_ThemeContainer1"
+        Me.HazelDev_ThemeContainer1.Size = New System.Drawing.Size(1116, 542)
+        Me.HazelDev_ThemeContainer1.TabIndex = 1
+        Me.HazelDev_ThemeContainer1.Text = "COMMON REPORTS"
+        Me.HazelDev_ThemeContainer1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'HazelDev_Panel1
+        '
+        Me.HazelDev_Panel1.BackColor = System.Drawing.Color.White
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button92)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button91)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button90)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button89)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button88)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button87)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button86)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button85)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button84)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button83)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button82)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button81)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button80)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button79)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button78)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button77)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button76)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button75)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button74)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button73)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button72)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button71)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button70)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button69)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button68)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button67)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button66)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button65)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button64)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button63)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button62)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button61)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button60)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button59)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button58)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button57)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button56)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button55)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button54)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button53)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button52)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button51)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button50)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button49)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button48)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button47)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button46)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button45)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button44)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button43)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button42)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button41)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button40)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button39)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button38)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button37)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button36)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button35)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button34)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button33)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button32)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button31)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button30)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button29)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button28)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button27)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button26)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button25)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button24)
+        Me.HazelDev_Panel1.Controls.Add(Me.cmdTest)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button23)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button22)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button21)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button20)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button19)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button18)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button17)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button16)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button15)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button14)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button13)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button12)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button11)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button10)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button9)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button8)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button7)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button6)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button5)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button4)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button3)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button2)
+        Me.HazelDev_Panel1.Controls.Add(Me.HazelDev_Button1)
+        Me.HazelDev_Panel1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.HazelDev_Panel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.HazelDev_Panel1.Location = New System.Drawing.Point(3, 54)
+        Me.HazelDev_Panel1.Name = "HazelDev_Panel1"
+        Me.HazelDev_Panel1.Size = New System.Drawing.Size(1108, 483)
+        Me.HazelDev_Panel1.TabIndex = 0
+        Me.HazelDev_Panel1.Text = "HazelDev_Panel1"
+        Me.HazelDev_Panel1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'HazelDev_Button82
+        '
+        Me.HazelDev_Button82.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button82.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button82.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button82.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button82.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button82.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button82.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button82.Location = New System.Drawing.Point(420, 435)
+        Me.HazelDev_Button82.Name = "HazelDev_Button82"
+        Me.HazelDev_Button82.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button82.TabIndex = 82
+        Me.HazelDev_Button82.Text = "Rgh Sum for Exp"
+        Me.HazelDev_Button82.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button81
+        '
+        Me.HazelDev_Button81.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button81.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button81.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button81.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button81.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button81.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button81.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button81.Location = New System.Drawing.Point(692, 397)
+        Me.HazelDev_Button81.Name = "HazelDev_Button81"
+        Me.HazelDev_Button81.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button81.TabIndex = 81
+        Me.HazelDev_Button81.Text = "Fancy Analysis Col"
+        Me.HazelDev_Button81.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button80
+        '
+        Me.HazelDev_Button80.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button80.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button80.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button80.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button80.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button80.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button80.Location = New System.Drawing.Point(828, 397)
+        Me.HazelDev_Button80.Name = "HazelDev_Button80"
+        Me.HazelDev_Button80.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button80.TabIndex = 80
+        Me.HazelDev_Button80.Text = "Lost Release Emps"
+        Me.HazelDev_Button80.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button79
+        '
+        Me.HazelDev_Button79.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button79.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button79.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button79.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button79.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button79.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button79.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button79.Location = New System.Drawing.Point(284, 435)
+        Me.HazelDev_Button79.Name = "HazelDev_Button79"
+        Me.HazelDev_Button79.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button79.TabIndex = 79
+        Me.HazelDev_Button79.Text = "Prod Units All"
+        Me.HazelDev_Button79.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button78
+        '
+        Me.HazelDev_Button78.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button78.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button78.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button78.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button78.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button78.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button78.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button78.Location = New System.Drawing.Point(12, 435)
+        Me.HazelDev_Button78.Name = "HazelDev_Button78"
+        Me.HazelDev_Button78.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button78.TabIndex = 78
+        Me.HazelDev_Button78.Text = "Lost Details All"
+        Me.HazelDev_Button78.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button77
+        '
+        Me.HazelDev_Button77.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button77.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button77.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button77.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button77.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button77.Location = New System.Drawing.Point(148, 435)
+        Me.HazelDev_Button77.Name = "HazelDev_Button77"
+        Me.HazelDev_Button77.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button77.TabIndex = 77
+        Me.HazelDev_Button77.Text = "Found Details All"
+        Me.HazelDev_Button77.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button76
+        '
+        Me.HazelDev_Button76.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button76.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button76.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button76.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button76.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button76.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button76.Location = New System.Drawing.Point(828, 362)
+        Me.HazelDev_Button76.Name = "HazelDev_Button76"
+        Me.HazelDev_Button76.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button76.TabIndex = 76
+        Me.HazelDev_Button76.Text = "Lost Emps"
+        Me.HazelDev_Button76.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button75
+        '
+        Me.HazelDev_Button75.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button75.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button75.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button75.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button75.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button75.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button75.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button75.Location = New System.Drawing.Point(692, 362)
+        Me.HazelDev_Button75.Name = "HazelDev_Button75"
+        Me.HazelDev_Button75.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button75.TabIndex = 75
+        Me.HazelDev_Button75.Text = "Lot Stock Bal All"
+        Me.HazelDev_Button75.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button74
+        '
+        Me.HazelDev_Button74.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button74.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button74.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button74.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button74.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button74.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button74.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button74.Location = New System.Drawing.Point(556, 397)
+        Me.HazelDev_Button74.Name = "HazelDev_Button74"
+        Me.HazelDev_Button74.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button74.TabIndex = 74
+        Me.HazelDev_Button74.Text = "Rej Bro Supp"
+        Me.HazelDev_Button74.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button73
+        '
+        Me.HazelDev_Button73.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button73.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button73.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button73.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button73.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button73.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button73.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button73.Location = New System.Drawing.Point(420, 397)
+        Me.HazelDev_Button73.Name = "HazelDev_Button73"
+        Me.HazelDev_Button73.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button73.TabIndex = 73
+        Me.HazelDev_Button73.Text = "Found Details Supp"
+        Me.HazelDev_Button73.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button72
+        '
+        Me.HazelDev_Button72.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button72.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button72.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button72.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button72.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button72.Location = New System.Drawing.Point(284, 397)
+        Me.HazelDev_Button72.Name = "HazelDev_Button72"
+        Me.HazelDev_Button72.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button72.TabIndex = 72
+        Me.HazelDev_Button72.Text = "Cumulative Attend."
+        Me.HazelDev_Button72.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button71
+        '
+        Me.HazelDev_Button71.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button71.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button71.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button71.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button71.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button71.Location = New System.Drawing.Point(148, 397)
+        Me.HazelDev_Button71.Name = "HazelDev_Button71"
+        Me.HazelDev_Button71.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button71.TabIndex = 71
+        Me.HazelDev_Button71.Text = "Working Hours"
+        Me.HazelDev_Button71.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button70
+        '
+        Me.HazelDev_Button70.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button70.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button70.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button70.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button70.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button70.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button70.Location = New System.Drawing.Point(12, 397)
+        Me.HazelDev_Button70.Name = "HazelDev_Button70"
+        Me.HazelDev_Button70.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button70.TabIndex = 70
+        Me.HazelDev_Button70.Text = "Parl Turnaround C"
+        Me.HazelDev_Button70.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button69
+        '
+        Me.HazelDev_Button69.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button69.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button69.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button69.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button69.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button69.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button69.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button69.Location = New System.Drawing.Point(828, 324)
+        Me.HazelDev_Button69.Name = "HazelDev_Button69"
+        Me.HazelDev_Button69.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button69.TabIndex = 69
+        Me.HazelDev_Button69.Text = "Rounds Balance"
+        Me.HazelDev_Button69.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button68
+        '
+        Me.HazelDev_Button68.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button68.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button68.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button68.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button68.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button68.Location = New System.Drawing.Point(828, 286)
+        Me.HazelDev_Button68.Name = "HazelDev_Button68"
+        Me.HazelDev_Button68.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button68.TabIndex = 68
+        Me.HazelDev_Button68.Text = "Fancy Balance"
+        Me.HazelDev_Button68.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button67
+        '
+        Me.HazelDev_Button67.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button67.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button67.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button67.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button67.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button67.Location = New System.Drawing.Point(828, 248)
+        Me.HazelDev_Button67.Name = "HazelDev_Button67"
+        Me.HazelDev_Button67.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button67.TabIndex = 67
+        Me.HazelDev_Button67.Text = "Attendance Details"
+        Me.HazelDev_Button67.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button66
+        '
+        Me.HazelDev_Button66.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button66.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button66.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button66.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button66.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button66.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button66.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button66.Location = New System.Drawing.Point(828, 210)
+        Me.HazelDev_Button66.Name = "HazelDev_Button66"
+        Me.HazelDev_Button66.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button66.TabIndex = 66
+        Me.HazelDev_Button66.Text = "Lot Stock Bal Pol"
+        Me.HazelDev_Button66.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button65
+        '
+        Me.HazelDev_Button65.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button65.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button65.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button65.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button65.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button65.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button65.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button65.Location = New System.Drawing.Point(829, 172)
+        Me.HazelDev_Button65.Name = "HazelDev_Button65"
+        Me.HazelDev_Button65.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button65.TabIndex = 65
+        Me.HazelDev_Button65.Text = "APCU In's Details"
+        Me.HazelDev_Button65.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button64
+        '
+        Me.HazelDev_Button64.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button64.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button64.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button64.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button64.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button64.Location = New System.Drawing.Point(828, 134)
+        Me.HazelDev_Button64.Name = "HazelDev_Button64"
+        Me.HazelDev_Button64.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button64.TabIndex = 64
+        Me.HazelDev_Button64.Text = "Assorting Lot Days"
+        Me.HazelDev_Button64.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button63
+        '
+        Me.HazelDev_Button63.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button63.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button63.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button63.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button63.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button63.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button63.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button63.Location = New System.Drawing.Point(828, 96)
+        Me.HazelDev_Button63.Name = "HazelDev_Button63"
+        Me.HazelDev_Button63.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button63.TabIndex = 63
+        Me.HazelDev_Button63.Text = "APCU Price List"
+        Me.HazelDev_Button63.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button62
+        '
+        Me.HazelDev_Button62.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button62.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button62.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button62.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button62.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button62.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button62.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button62.Location = New System.Drawing.Point(828, 435)
+        Me.HazelDev_Button62.Name = "HazelDev_Button62"
+        Me.HazelDev_Button62.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button62.TabIndex = 62
+        Me.HazelDev_Button62.Text = "Run"
+        Me.HazelDev_Button62.UseVisualStyleBackColor = False
+        Me.HazelDev_Button62.Visible = False
+        '
+        'HazelDev_Button61
+        '
+        Me.HazelDev_Button61.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button61.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button61.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button61.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button61.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button61.Location = New System.Drawing.Point(828, 58)
+        Me.HazelDev_Button61.Name = "HazelDev_Button61"
+        Me.HazelDev_Button61.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button61.TabIndex = 61
+        Me.HazelDev_Button61.Text = "N Order Details"
+        Me.HazelDev_Button61.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button60
+        '
+        Me.HazelDev_Button60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button60.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button60.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button60.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button60.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button60.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button60.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button60.Location = New System.Drawing.Point(829, 20)
+        Me.HazelDev_Button60.Name = "HazelDev_Button60"
+        Me.HazelDev_Button60.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button60.TabIndex = 60
+        Me.HazelDev_Button60.Text = "Lot Stock Balance"
+        Me.HazelDev_Button60.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button59
+        '
+        Me.HazelDev_Button59.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button59.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button59.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button59.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button59.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button59.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button59.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button59.Location = New System.Drawing.Point(420, 362)
+        Me.HazelDev_Button59.Name = "HazelDev_Button59"
+        Me.HazelDev_Button59.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button59.TabIndex = 59
+        Me.HazelDev_Button59.Text = "Fancy Achieve New"
+        Me.HazelDev_Button59.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button58
+        '
+        Me.HazelDev_Button58.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button58.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button58.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button58.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button58.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button58.Location = New System.Drawing.Point(556, 362)
+        Me.HazelDev_Button58.Name = "HazelDev_Button58"
+        Me.HazelDev_Button58.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button58.TabIndex = 58
+        Me.HazelDev_Button58.Text = "Fancy Analysis New"
+        Me.HazelDev_Button58.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button57
+        '
+        Me.HazelDev_Button57.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button57.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button57.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button57.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button57.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button57.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button57.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button57.Location = New System.Drawing.Point(284, 362)
+        Me.HazelDev_Button57.Name = "HazelDev_Button57"
+        Me.HazelDev_Button57.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button57.TabIndex = 57
+        Me.HazelDev_Button57.Text = "Lab Report"
+        Me.HazelDev_Button57.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button56
+        '
+        Me.HazelDev_Button56.BackColor = System.Drawing.Color.Green
+        Me.HazelDev_Button56.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button56.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button56.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button56.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button56.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button56.Location = New System.Drawing.Point(148, 362)
+        Me.HazelDev_Button56.Name = "HazelDev_Button56"
+        Me.HazelDev_Button56.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button56.TabIndex = 56
+        Me.HazelDev_Button56.Text = "Polished Lot Stock"
+        Me.HazelDev_Button56.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button55
+        '
+        Me.HazelDev_Button55.BackColor = System.Drawing.Color.Green
+        Me.HazelDev_Button55.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button55.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button55.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button55.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button55.Location = New System.Drawing.Point(12, 362)
+        Me.HazelDev_Button55.Name = "HazelDev_Button55"
+        Me.HazelDev_Button55.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button55.TabIndex = 55
+        Me.HazelDev_Button55.Text = "Rough Lot Stock"
+        Me.HazelDev_Button55.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button54
+        '
+        Me.HazelDev_Button54.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button54.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button54.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button54.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button54.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button54.Location = New System.Drawing.Point(692, 324)
+        Me.HazelDev_Button54.Name = "HazelDev_Button54"
+        Me.HazelDev_Button54.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button54.TabIndex = 54
+        Me.HazelDev_Button54.Text = "Lost Monthly Report"
+        Me.HazelDev_Button54.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button53
+        '
+        Me.HazelDev_Button53.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button53.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button53.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button53.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button53.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button53.Location = New System.Drawing.Point(556, 324)
+        Me.HazelDev_Button53.Name = "HazelDev_Button53"
+        Me.HazelDev_Button53.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button53.TabIndex = 53
+        Me.HazelDev_Button53.Text = "Lost Found Details"
+        Me.HazelDev_Button53.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button52
+        '
+        Me.HazelDev_Button52.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button52.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button52.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button52.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button52.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button52.Location = New System.Drawing.Point(692, 286)
+        Me.HazelDev_Button52.Name = "HazelDev_Button52"
+        Me.HazelDev_Button52.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button52.TabIndex = 52
+        Me.HazelDev_Button52.Text = "Found Details HR"
+        Me.HazelDev_Button52.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button51
+        '
+        Me.HazelDev_Button51.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button51.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button51.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button51.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button51.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button51.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button51.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button51.Location = New System.Drawing.Point(692, 210)
+        Me.HazelDev_Button51.Name = "HazelDev_Button51"
+        Me.HazelDev_Button51.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button51.TabIndex = 51
+        Me.HazelDev_Button51.Text = "Rough Achieve Sum"
+        Me.HazelDev_Button51.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button50
+        '
+        Me.HazelDev_Button50.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button50.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button50.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button50.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button50.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button50.Location = New System.Drawing.Point(692, 172)
+        Me.HazelDev_Button50.Name = "HazelDev_Button50"
+        Me.HazelDev_Button50.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button50.TabIndex = 50
+        Me.HazelDev_Button50.Text = "Rnd Achieve Sum"
+        Me.HazelDev_Button50.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button49
+        '
+        Me.HazelDev_Button49.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button49.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button49.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button49.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button49.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button49.Location = New System.Drawing.Point(692, 134)
+        Me.HazelDev_Button49.Name = "HazelDev_Button49"
+        Me.HazelDev_Button49.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button49.TabIndex = 49
+        Me.HazelDev_Button49.Text = "PCUN for Export"
+        Me.HazelDev_Button49.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button48
+        '
+        Me.HazelDev_Button48.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button48.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button48.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button48.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button48.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button48.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button48.Location = New System.Drawing.Point(692, 248)
+        Me.HazelDev_Button48.Name = "HazelDev_Button48"
+        Me.HazelDev_Button48.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button48.TabIndex = 48
+        Me.HazelDev_Button48.Text = "Lost Deduct HR"
+        Me.HazelDev_Button48.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button47
+        '
+        Me.HazelDev_Button47.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button47.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button47.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button47.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button47.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button47.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button47.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button47.Location = New System.Drawing.Point(692, 96)
+        Me.HazelDev_Button47.Name = "HazelDev_Button47"
+        Me.HazelDev_Button47.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button47.TabIndex = 47
+        Me.HazelDev_Button47.Text = "Polish Box Stock"
+        Me.HazelDev_Button47.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button46
+        '
+        Me.HazelDev_Button46.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HazelDev_Button46.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button46.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button46.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button46.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button46.Location = New System.Drawing.Point(692, 58)
+        Me.HazelDev_Button46.Name = "HazelDev_Button46"
+        Me.HazelDev_Button46.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button46.TabIndex = 46
+        Me.HazelDev_Button46.Text = "Rnd Lot Summary"
+        Me.HazelDev_Button46.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button45
+        '
+        Me.HazelDev_Button45.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button45.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button45.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button45.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button45.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button45.Location = New System.Drawing.Point(692, 20)
+        Me.HazelDev_Button45.Name = "HazelDev_Button45"
+        Me.HazelDev_Button45.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button45.TabIndex = 45
+        Me.HazelDev_Button45.Text = "Rgh Details ReIssue"
+        Me.HazelDev_Button45.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button44
+        '
+        Me.HazelDev_Button44.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button44.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button44.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button44.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button44.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button44.Location = New System.Drawing.Point(420, 324)
+        Me.HazelDev_Button44.Name = "HazelDev_Button44"
+        Me.HazelDev_Button44.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button44.TabIndex = 44
+        Me.HazelDev_Button44.Text = "Assortment Search"
+        Me.HazelDev_Button44.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button43
+        '
+        Me.HazelDev_Button43.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HazelDev_Button43.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button43.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button43.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button43.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button43.Location = New System.Drawing.Point(284, 324)
+        Me.HazelDev_Button43.Name = "HazelDev_Button43"
+        Me.HazelDev_Button43.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button43.TabIndex = 43
+        Me.HazelDev_Button43.Text = "Rounds Analysis"
+        Me.HazelDev_Button43.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button42
+        '
+        Me.HazelDev_Button42.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button42.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button42.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button42.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button42.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button42.Location = New System.Drawing.Point(148, 324)
+        Me.HazelDev_Button42.Name = "HazelDev_Button42"
+        Me.HazelDev_Button42.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button42.TabIndex = 42
+        Me.HazelDev_Button42.Text = "Fancy Analysis"
+        Me.HazelDev_Button42.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button41
+        '
+        Me.HazelDev_Button41.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button41.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button41.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button41.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button41.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button41.Location = New System.Drawing.Point(12, 324)
+        Me.HazelDev_Button41.Name = "HazelDev_Button41"
+        Me.HazelDev_Button41.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button41.TabIndex = 41
+        Me.HazelDev_Button41.Text = "Lot Plan Value"
+        Me.HazelDev_Button41.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button40
+        '
+        Me.HazelDev_Button40.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button40.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button40.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button40.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button40.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button40.Location = New System.Drawing.Point(556, 286)
+        Me.HazelDev_Button40.Name = "HazelDev_Button40"
+        Me.HazelDev_Button40.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button40.TabIndex = 40
+        Me.HazelDev_Button40.Text = "Repair Production"
+        Me.HazelDev_Button40.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button39
+        '
+        Me.HazelDev_Button39.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button39.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button39.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button39.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button39.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button39.Location = New System.Drawing.Point(556, 248)
+        Me.HazelDev_Button39.Name = "HazelDev_Button39"
+        Me.HazelDev_Button39.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button39.TabIndex = 39
+        Me.HazelDev_Button39.Text = "Fancy Achieve Sum"
+        Me.HazelDev_Button39.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button38
+        '
+        Me.HazelDev_Button38.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HazelDev_Button38.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button38.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button38.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button38.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button38.Location = New System.Drawing.Point(556, 210)
+        Me.HazelDev_Button38.Name = "HazelDev_Button38"
+        Me.HazelDev_Button38.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button38.TabIndex = 38
+        Me.HazelDev_Button38.Text = "Round Achievement"
+        Me.HazelDev_Button38.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button37
+        '
+        Me.HazelDev_Button37.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.HazelDev_Button37.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button37.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button37.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button37.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button37.Location = New System.Drawing.Point(556, 172)
+        Me.HazelDev_Button37.Name = "HazelDev_Button37"
+        Me.HazelDev_Button37.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button37.TabIndex = 37
+        Me.HazelDev_Button37.Text = "Fancy Achievement"
+        Me.HazelDev_Button37.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button36
+        '
+        Me.HazelDev_Button36.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button36.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button36.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button36.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button36.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button36.Location = New System.Drawing.Point(556, 134)
+        Me.HazelDev_Button36.Name = "HazelDev_Button36"
+        Me.HazelDev_Button36.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button36.TabIndex = 36
+        Me.HazelDev_Button36.Text = "Parcel Turnaround"
+        Me.HazelDev_Button36.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button35
+        '
+        Me.HazelDev_Button35.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button35.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button35.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button35.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button35.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button35.Location = New System.Drawing.Point(556, 96)
+        Me.HazelDev_Button35.Name = "HazelDev_Button35"
+        Me.HazelDev_Button35.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button35.TabIndex = 35
+        Me.HazelDev_Button35.Text = "APCU Price"
+        Me.HazelDev_Button35.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button34
+        '
+        Me.HazelDev_Button34.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button34.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button34.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button34.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button34.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button34.Location = New System.Drawing.Point(556, 20)
+        Me.HazelDev_Button34.Name = "HazelDev_Button34"
+        Me.HazelDev_Button34.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button34.TabIndex = 34
+        Me.HazelDev_Button34.Text = "Rough Box"
+        Me.HazelDev_Button34.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button33
+        '
+        Me.HazelDev_Button33.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button33.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button33.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button33.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button33.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button33.Location = New System.Drawing.Point(420, 286)
+        Me.HazelDev_Button33.Name = "HazelDev_Button33"
+        Me.HazelDev_Button33.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button33.TabIndex = 33
+        Me.HazelDev_Button33.Text = "DCL Lot Days"
+        Me.HazelDev_Button33.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button32
+        '
+        Me.HazelDev_Button32.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button32.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button32.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button32.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button32.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button32.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button32.Location = New System.Drawing.Point(284, 286)
+        Me.HazelDev_Button32.Name = "HazelDev_Button32"
+        Me.HazelDev_Button32.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button32.TabIndex = 32
+        Me.HazelDev_Button32.Text = "Grading Lot Days"
+        Me.HazelDev_Button32.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button31
+        '
+        Me.HazelDev_Button31.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button31.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button31.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button31.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button31.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button31.Location = New System.Drawing.Point(12, 286)
+        Me.HazelDev_Button31.Name = "HazelDev_Button31"
+        Me.HazelDev_Button31.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button31.TabIndex = 31
+        Me.HazelDev_Button31.Text = "Rgh Lot Days"
+        Me.HazelDev_Button31.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button30
+        '
+        Me.HazelDev_Button30.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button30.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button30.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button30.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button30.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button30.Location = New System.Drawing.Point(556, 58)
+        Me.HazelDev_Button30.Name = "HazelDev_Button30"
+        Me.HazelDev_Button30.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button30.TabIndex = 30
+        Me.HazelDev_Button30.Text = "Lost Details"
+        Me.HazelDev_Button30.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button29
+        '
+        Me.HazelDev_Button29.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button29.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button29.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button29.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button29.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button29.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button29.Location = New System.Drawing.Point(148, 286)
+        Me.HazelDev_Button29.Name = "HazelDev_Button29"
+        Me.HazelDev_Button29.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button29.TabIndex = 29
+        Me.HazelDev_Button29.Text = "Production Lot Days"
+        Me.HazelDev_Button29.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button28
+        '
+        Me.HazelDev_Button28.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button28.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button28.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button28.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button28.Location = New System.Drawing.Point(284, 248)
+        Me.HazelDev_Button28.Name = "HazelDev_Button28"
+        Me.HazelDev_Button28.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button28.TabIndex = 28
+        Me.HazelDev_Button28.Text = "Costing Summary"
+        Me.HazelDev_Button28.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button27
+        '
+        Me.HazelDev_Button27.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button27.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button27.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button27.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button27.Location = New System.Drawing.Point(420, 248)
+        Me.HazelDev_Button27.Name = "HazelDev_Button27"
+        Me.HazelDev_Button27.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button27.TabIndex = 27
+        Me.HazelDev_Button27.Text = "Assort Prices Wid"
+        Me.HazelDev_Button27.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button26
+        '
+        Me.HazelDev_Button26.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button26.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button26.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button26.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button26.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button26.Location = New System.Drawing.Point(148, 248)
+        Me.HazelDev_Button26.Name = "HazelDev_Button26"
+        Me.HazelDev_Button26.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button26.TabIndex = 26
+        Me.HazelDev_Button26.Text = "Clarity Summary"
+        Me.HazelDev_Button26.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button25
+        '
+        Me.HazelDev_Button25.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button25.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button25.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button25.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button25.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button25.Location = New System.Drawing.Point(12, 248)
+        Me.HazelDev_Button25.Name = "HazelDev_Button25"
+        Me.HazelDev_Button25.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button25.TabIndex = 25
+        Me.HazelDev_Button25.Text = "Color Summary"
+        Me.HazelDev_Button25.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button24
+        '
+        Me.HazelDev_Button24.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button24.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button24.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button24.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button24.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button24.Location = New System.Drawing.Point(420, 210)
+        Me.HazelDev_Button24.Name = "HazelDev_Button24"
+        Me.HazelDev_Button24.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button24.TabIndex = 24
+        Me.HazelDev_Button24.Text = "Assort Prices Len"
+        Me.HazelDev_Button24.UseVisualStyleBackColor = False
+        '
+        'cmdTest
+        '
+        Me.cmdTest.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdTest.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.cmdTest.FlatAppearance.BorderSize = 0
+        Me.cmdTest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.cmdTest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.cmdTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdTest.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdTest.ForeColor = System.Drawing.Color.White
+        Me.cmdTest.Location = New System.Drawing.Point(692, 435)
+        Me.cmdTest.Name = "cmdTest"
+        Me.cmdTest.Size = New System.Drawing.Size(130, 32)
+        Me.cmdTest.TabIndex = 23
+        Me.cmdTest.Text = "Test"
+        Me.cmdTest.UseVisualStyleBackColor = False
+        Me.cmdTest.Visible = False
+        '
+        'HazelDev_Button23
+        '
+        Me.HazelDev_Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button23.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button23.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button23.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button23.Location = New System.Drawing.Point(284, 210)
+        Me.HazelDev_Button23.Name = "HazelDev_Button23"
+        Me.HazelDev_Button23.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button23.TabIndex = 22
+        Me.HazelDev_Button23.Text = "Assortment Balance"
+        Me.HazelDev_Button23.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button22
+        '
+        Me.HazelDev_Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button22.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button22.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button22.Location = New System.Drawing.Point(148, 210)
+        Me.HazelDev_Button22.Name = "HazelDev_Button22"
+        Me.HazelDev_Button22.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button22.TabIndex = 21
+        Me.HazelDev_Button22.Text = "Instructions"
+        Me.HazelDev_Button22.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button21
+        '
+        Me.HazelDev_Button21.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button21.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button21.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button21.Location = New System.Drawing.Point(12, 210)
+        Me.HazelDev_Button21.Name = "HazelDev_Button21"
+        Me.HazelDev_Button21.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button21.TabIndex = 20
+        Me.HazelDev_Button21.Text = "Export Details"
+        Me.HazelDev_Button21.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button20
+        '
+        Me.HazelDev_Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button20.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button20.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button20.Location = New System.Drawing.Point(420, 172)
+        Me.HazelDev_Button20.Name = "HazelDev_Button20"
+        Me.HazelDev_Button20.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button20.TabIndex = 19
+        Me.HazelDev_Button20.Text = "Current Par. Sum"
+        Me.HazelDev_Button20.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button19
+        '
+        Me.HazelDev_Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button19.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button19.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button19.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button19.Location = New System.Drawing.Point(284, 172)
+        Me.HazelDev_Button19.Name = "HazelDev_Button19"
+        Me.HazelDev_Button19.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button19.TabIndex = 18
+        Me.HazelDev_Button19.Text = "Prod Stone Days"
+        Me.HazelDev_Button19.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button18
+        '
+        Me.HazelDev_Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button18.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button18.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button18.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button18.Location = New System.Drawing.Point(148, 172)
+        Me.HazelDev_Button18.Name = "HazelDev_Button18"
+        Me.HazelDev_Button18.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button18.TabIndex = 17
+        Me.HazelDev_Button18.Text = "Laser Brut. Stock"
+        Me.HazelDev_Button18.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button17
+        '
+        Me.HazelDev_Button17.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button17.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button17.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button17.Location = New System.Drawing.Point(12, 172)
+        Me.HazelDev_Button17.Name = "HazelDev_Button17"
+        Me.HazelDev_Button17.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button17.TabIndex = 16
+        Me.HazelDev_Button17.Text = "Rounds Chart"
+        Me.HazelDev_Button17.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button16
+        '
+        Me.HazelDev_Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button16.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button16.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button16.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button16.Location = New System.Drawing.Point(420, 134)
+        Me.HazelDev_Button16.Name = "HazelDev_Button16"
+        Me.HazelDev_Button16.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button16.TabIndex = 15
+        Me.HazelDev_Button16.Text = "Profit/Loss Details"
+        Me.HazelDev_Button16.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button15
+        '
+        Me.HazelDev_Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button15.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button15.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button15.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button15.Location = New System.Drawing.Point(284, 134)
+        Me.HazelDev_Button15.Name = "HazelDev_Button15"
+        Me.HazelDev_Button15.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button15.TabIndex = 14
+        Me.HazelDev_Button15.Text = "Rounds Planned"
+        Me.HazelDev_Button15.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button14
+        '
+        Me.HazelDev_Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button14.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button14.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button14.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button14.Location = New System.Drawing.Point(148, 134)
+        Me.HazelDev_Button14.Name = "HazelDev_Button14"
+        Me.HazelDev_Button14.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button14.TabIndex = 13
+        Me.HazelDev_Button14.Text = "Davinci Prod Issued"
+        Me.HazelDev_Button14.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button13
+        '
+        Me.HazelDev_Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button13.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button13.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button13.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button13.Location = New System.Drawing.Point(12, 134)
+        Me.HazelDev_Button13.Name = "HazelDev_Button13"
+        Me.HazelDev_Button13.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button13.TabIndex = 12
+        Me.HazelDev_Button13.Text = "Davinci Planned"
+        Me.HazelDev_Button13.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button12
+        '
+        Me.HazelDev_Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button12.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button12.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button12.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button12.Location = New System.Drawing.Point(420, 96)
+        Me.HazelDev_Button12.Name = "HazelDev_Button12"
+        Me.HazelDev_Button12.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button12.TabIndex = 11
+        Me.HazelDev_Button12.Text = "PCU Planned"
+        Me.HazelDev_Button12.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button11
+        '
+        Me.HazelDev_Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button11.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button11.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button11.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button11.Location = New System.Drawing.Point(284, 96)
+        Me.HazelDev_Button11.Name = "HazelDev_Button11"
+        Me.HazelDev_Button11.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button11.TabIndex = 10
+        Me.HazelDev_Button11.Text = "L'amour Prod Issue"
+        Me.HazelDev_Button11.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button10
+        '
+        Me.HazelDev_Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button10.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button10.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button10.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button10.Location = New System.Drawing.Point(148, 96)
+        Me.HazelDev_Button10.Name = "HazelDev_Button10"
+        Me.HazelDev_Button10.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button10.TabIndex = 9
+        Me.HazelDev_Button10.Text = "L'amour Plan Lot"
+        Me.HazelDev_Button10.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button9
+        '
+        Me.HazelDev_Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button9.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button9.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button9.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button9.Location = New System.Drawing.Point(12, 96)
+        Me.HazelDev_Button9.Name = "HazelDev_Button9"
+        Me.HazelDev_Button9.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button9.TabIndex = 8
+        Me.HazelDev_Button9.Text = "L'amour Planned"
+        Me.HazelDev_Button9.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button8
+        '
+        Me.HazelDev_Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button8.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button8.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button8.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button8.Location = New System.Drawing.Point(420, 58)
+        Me.HazelDev_Button8.Name = "HazelDev_Button8"
+        Me.HazelDev_Button8.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button8.TabIndex = 7
+        Me.HazelDev_Button8.Text = "Rounds Prod Finish"
+        Me.HazelDev_Button8.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button7
+        '
+        Me.HazelDev_Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button7.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button7.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button7.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button7.Location = New System.Drawing.Point(284, 58)
+        Me.HazelDev_Button7.Name = "HazelDev_Button7"
+        Me.HazelDev_Button7.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button7.TabIndex = 6
+        Me.HazelDev_Button7.Text = "Shipment Lots"
+        Me.HazelDev_Button7.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button6
+        '
+        Me.HazelDev_Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button6.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button6.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button6.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button6.Location = New System.Drawing.Point(148, 58)
+        Me.HazelDev_Button6.Name = "HazelDev_Button6"
+        Me.HazelDev_Button6.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button6.TabIndex = 5
+        Me.HazelDev_Button6.Text = "Export Plan Sum"
+        Me.HazelDev_Button6.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button5
+        '
+        Me.HazelDev_Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button5.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button5.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button5.Location = New System.Drawing.Point(12, 58)
+        Me.HazelDev_Button5.Name = "HazelDev_Button5"
+        Me.HazelDev_Button5.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button5.TabIndex = 4
+        Me.HazelDev_Button5.Text = "Export Plan Details"
+        Me.HazelDev_Button5.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button4
+        '
+        Me.HazelDev_Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button4.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button4.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button4.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button4.Location = New System.Drawing.Point(420, 20)
+        Me.HazelDev_Button4.Name = "HazelDev_Button4"
+        Me.HazelDev_Button4.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button4.TabIndex = 3
+        Me.HazelDev_Button4.Text = "Rgh Dt for Exp Lot"
+        Me.HazelDev_Button4.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button3
+        '
+        Me.HazelDev_Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button3.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button3.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button3.Location = New System.Drawing.Point(284, 20)
+        Me.HazelDev_Button3.Name = "HazelDev_Button3"
+        Me.HazelDev_Button3.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button3.TabIndex = 2
+        Me.HazelDev_Button3.Text = "Rgh Details for Exp"
+        Me.HazelDev_Button3.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button2
+        '
+        Me.HazelDev_Button2.BackColor = System.Drawing.Color.Red
+        Me.HazelDev_Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button2.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button2.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button2.Location = New System.Drawing.Point(148, 20)
+        Me.HazelDev_Button2.Name = "HazelDev_Button2"
+        Me.HazelDev_Button2.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button2.TabIndex = 1
+        Me.HazelDev_Button2.Text = "Lost Receipt"
+        Me.HazelDev_Button2.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button1
+        '
+        Me.HazelDev_Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button1.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button1.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button1.Location = New System.Drawing.Point(12, 20)
+        Me.HazelDev_Button1.Name = "HazelDev_Button1"
+        Me.HazelDev_Button1.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button1.TabIndex = 0
+        Me.HazelDev_Button1.Text = "Current Parcels"
+        Me.HazelDev_Button1.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button83
+        '
+        Me.HazelDev_Button83.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button83.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button83.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button83.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button83.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button83.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button83.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button83.Location = New System.Drawing.Point(965, 20)
+        Me.HazelDev_Button83.Name = "HazelDev_Button83"
+        Me.HazelDev_Button83.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button83.TabIndex = 83
+        Me.HazelDev_Button83.Text = "Baguettes Score"
+        Me.HazelDev_Button83.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button84
+        '
+        Me.HazelDev_Button84.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button84.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button84.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button84.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button84.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button84.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button84.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button84.Location = New System.Drawing.Point(964, 58)
+        Me.HazelDev_Button84.Name = "HazelDev_Button84"
+        Me.HazelDev_Button84.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button84.TabIndex = 84
+        Me.HazelDev_Button84.Text = "Princess Score"
+        Me.HazelDev_Button84.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button85
+        '
+        Me.HazelDev_Button85.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button85.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button85.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button85.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button85.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button85.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button85.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button85.Location = New System.Drawing.Point(964, 96)
+        Me.HazelDev_Button85.Name = "HazelDev_Button85"
+        Me.HazelDev_Button85.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button85.TabIndex = 85
+        Me.HazelDev_Button85.Text = "Rounds Score"
+        Me.HazelDev_Button85.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button86
+        '
+        Me.HazelDev_Button86.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button86.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button86.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button86.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button86.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button86.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button86.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button86.Location = New System.Drawing.Point(964, 134)
+        Me.HazelDev_Button86.Name = "HazelDev_Button86"
+        Me.HazelDev_Button86.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button86.TabIndex = 86
+        Me.HazelDev_Button86.Text = "PCU Score"
+        Me.HazelDev_Button86.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button87
+        '
+        Me.HazelDev_Button87.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button87.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button87.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button87.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button87.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button87.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button87.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button87.Location = New System.Drawing.Point(964, 172)
+        Me.HazelDev_Button87.Name = "HazelDev_Button87"
+        Me.HazelDev_Button87.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button87.TabIndex = 87
+        Me.HazelDev_Button87.Text = "Grooving Score"
+        Me.HazelDev_Button87.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button88
+        '
+        Me.HazelDev_Button88.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button88.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button88.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button88.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button88.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button88.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button88.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button88.Location = New System.Drawing.Point(964, 210)
+        Me.HazelDev_Button88.Name = "HazelDev_Button88"
+        Me.HazelDev_Button88.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button88.TabIndex = 88
+        Me.HazelDev_Button88.Text = "Rough Score"
+        Me.HazelDev_Button88.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button89
+        '
+        Me.HazelDev_Button89.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button89.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button89.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button89.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button89.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button89.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button89.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button89.Location = New System.Drawing.Point(964, 248)
+        Me.HazelDev_Button89.Name = "HazelDev_Button89"
+        Me.HazelDev_Button89.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button89.TabIndex = 89
+        Me.HazelDev_Button89.Text = "Prod Non Score"
+        Me.HazelDev_Button89.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button90
+        '
+        Me.HazelDev_Button90.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button90.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button90.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button90.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button90.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button90.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button90.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button90.Location = New System.Drawing.Point(964, 286)
+        Me.HazelDev_Button90.Name = "HazelDev_Button90"
+        Me.HazelDev_Button90.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button90.TabIndex = 90
+        Me.HazelDev_Button90.Text = "Non Prod Score"
+        Me.HazelDev_Button90.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button91
+        '
+        Me.HazelDev_Button91.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button91.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button91.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button91.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button91.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button91.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button91.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button91.Location = New System.Drawing.Point(964, 324)
+        Me.HazelDev_Button91.Name = "HazelDev_Button91"
+        Me.HazelDev_Button91.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button91.TabIndex = 91
+        Me.HazelDev_Button91.Text = "PCU XY Score"
+        Me.HazelDev_Button91.UseVisualStyleBackColor = False
+        '
+        'HazelDev_Button92
+        '
+        Me.HazelDev_Button92.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button92.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(157, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.HazelDev_Button92.FlatAppearance.BorderSize = 0
+        Me.HazelDev_Button92.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.HazelDev_Button92.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.HazelDev_Button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HazelDev_Button92.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HazelDev_Button92.ForeColor = System.Drawing.Color.White
+        Me.HazelDev_Button92.Location = New System.Drawing.Point(964, 362)
+        Me.HazelDev_Button92.Name = "HazelDev_Button92"
+        Me.HazelDev_Button92.Size = New System.Drawing.Size(130, 32)
+        Me.HazelDev_Button92.TabIndex = 92
+        Me.HazelDev_Button92.Text = "Bruting Score"
+        Me.HazelDev_Button92.UseVisualStyleBackColor = False
+        '
+        'frm_DCLReportsCommon
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1116, 542)
+        Me.Controls.Add(Me.HazelDev_ThemeContainer1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.Name = "frm_DCLReportsCommon"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Common Reports"
+        Me.HazelDev_ThemeContainer1.ResumeLayout(False)
+        Me.HazelDev_Panel1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents HazelDev_ThemeContainer1 As DiaStock.HazelDev_ThemeContainer
+    Friend WithEvents HazelDev_Panel1 As DiaStock.HazelDev_Panel
+    Friend WithEvents HazelDev_Button1 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button2 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button3 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button4 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button6 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button5 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button7 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button8 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button9 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button10 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button11 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button12 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button13 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button14 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button15 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button16 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button17 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button18 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button19 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button20 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button21 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button22 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button23 As DiaStock.HazelDev_Button
+    Friend WithEvents cmdTest As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button24 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button26 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button25 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button27 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button28 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button29 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button30 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button32 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button31 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button33 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button34 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button35 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button36 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button37 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button38 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button39 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button40 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button41 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button42 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button43 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button44 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button45 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button46 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button47 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button48 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button49 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button50 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button51 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button52 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button53 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button54 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button56 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button55 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button57 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button58 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button59 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button60 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button61 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button62 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button63 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button64 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button65 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button66 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button67 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button69 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button68 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button70 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button71 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button72 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button74 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button73 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button75 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button76 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button77 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button78 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button79 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button80 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button81 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button82 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button84 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button83 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button87 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button86 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button85 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button89 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button88 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button90 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button92 As DiaStock.HazelDev_Button
+    Friend WithEvents HazelDev_Button91 As DiaStock.HazelDev_Button
+End Class

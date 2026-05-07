@@ -1,0 +1,2769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{696BD225-8C16-4BD8-8B6B-5EA8ED0BC855}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DiaStock.My.MyApplication</StartupObject>
+    <RootNamespace>DiaStock</RootNamespace>
+    <AssemblyName>DiaStock</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DiaStock.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DiaStock.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Instructor.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MTGCCombobox">
+      <HintPath>..\..\WindowsApplication1\WindowsApplication1\MTGCCombobox.dll</HintPath>
+    </Reference>
+    <Reference Include="Portable.System.ValueTuple, Version=1.0.1.1, Culture=neutral, PublicKeyToken=0007e0f1797b6946, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.System.ValueTuple.1.0.1\lib\net45\Portable.System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_GRDRnd_AssortComp.Designer.vb">
+      <DependentUpon>frm_GRDRnd_AssortComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_AssortComp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Boiling.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Boiling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Boiling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Bundle.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Bundle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Bundle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Export.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Export.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Export.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummary.Designer.vb">
+      <DependentUpon>frm_GRDRnd_ExportSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummaryBundle.Designer.vb">
+      <DependentUpon>frm_GRDRnd_ExportSummaryBundle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummaryBundle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummaryModify.Designer.vb">
+      <DependentUpon>frm_GRDRnd_ExportSummaryModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_ExportSummaryModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_HOT_Company.Designer.vb">
+      <DependentUpon>frm_GRDRnd_HOT_Company.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_HOT_Company.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Niru_Invoice.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Niru_Invoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Niru_Invoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Packet.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Packet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Packet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_PacketUpload.Designer.vb">
+      <DependentUpon>frm_GRDRnd_PacketUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_PacketUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Parcels.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Parcels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Parcels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_PAY_Excel_Upload.Designer.vb">
+      <DependentUpon>frm_GRDRnd_PAY_Excel_Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_PAY_Excel_Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Reports.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Sizing.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Sizing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Sizing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_SizingPacket.Designer.vb">
+      <DependentUpon>frm_GRDRnd_SizingPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_SizingPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Upload.Designer.vb">
+      <DependentUpon>frm_GRDRnd_Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRnd_Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUPacketGrp.Designer.vb">
+      <DependentUpon>frm_PCUPacketGrp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUPacketGrp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HRDPerformance.Designer.vb">
+      <DependentUpon>frm_HRDPerformance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HRDPerformance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SYSUserNames.Designer.vb">
+      <DependentUpon>frm_SYSUserNames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SYSUserNames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpAssortUpload.Designer.vb">
+      <DependentUpon>frm_ExpAssortUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpAssortUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndReportsLB.Designer.vb">
+      <DependentUpon>frm_RndReportsLB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndReportsLB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprIssueEntry.Designer.vb">
+      <DependentUpon>frm_RprIssueEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprIssueEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDBox.Designer.vb">
+      <DependentUpon>frm_GRDBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLTraceUpload.Designer.vb">
+      <DependentUpon>frm_DCLTraceUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLTraceUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POLHistory.Designer.vb">
+      <DependentUpon>frm_POLHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POLHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPacketAdmin.Designer.vb">
+      <DependentUpon>frm_RprPacketAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPacketAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderImage.Designer.vb">
+      <DependentUpon>frm_MixOrderImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixConfirmOrdersEdit.Designer.vb">
+      <DependentUpon>frm_MixConfirmOrdersEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixConfirmOrdersEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSizingModify.Designer.vb">
+      <DependentUpon>frm_GRDSizingModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSizingModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixApprovalSRWNew.Designer.vb">
+      <DependentUpon>frm_MixApprovalSRWNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixApprovalSRWNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLGatePass.Designer.vb">
+      <DependentUpon>frm_DCLGatePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLGatePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPlanValue.Designer.vb">
+      <DependentUpon>frm_RprPlanValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPlanValue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpAssortPriceUpdate.Designer.vb">
+      <DependentUpon>frm_ExpAssortPriceUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpAssortPriceUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportOriginal.Designer.vb">
+      <DependentUpon>frm_DCLImportOriginal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportOriginal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpAssortPacket.Designer.vb">
+      <DependentUpon>frm_ExpAssortPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpAssortPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpAssortSizing.Designer.vb">
+      <DependentUpon>frm_ExpAssortSizing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpAssortSizing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprUpload.Designer.vb">
+      <DependentUpon>frm_RprUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixEditReturns16.Designer.vb">
+      <DependentUpon>frm_MixEditReturns16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixEditReturns16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HRDIncentiveNew.Designer.vb">
+      <DependentUpon>frm_HRDIncentiveNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HRDIncentiveNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprFinishTransfer.Designer.vb">
+      <DependentUpon>frm_RprFinishTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprFinishTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderGrp2.Designer.vb">
+      <DependentUpon>frm_MixOrderGrp2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderGrp2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportCusDecVerify.Designer.vb">
+      <DependentUpon>frm_DCLImportCusDecVerify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportCusDecVerify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportScan.Designer.vb">
+      <DependentUpon>frm_DCLImportScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportCusDec.Designer.vb">
+      <DependentUpon>frm_DCLImportCusDec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportCusDec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportOGL.Designer.vb">
+      <DependentUpon>frm_DCLImportOGL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportOGL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpRejects.Designer.vb">
+      <DependentUpon>frm_ExpRejects.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpRejects.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderApproval.Designer.vb">
+      <DependentUpon>frm_MixOrderApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOfferUpload.Designer.vb">
+      <DependentUpon>frm_MixOfferUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOfferUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderUpload.Designer.vb">
+      <DependentUpon>frm_MixOrderUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderO.Designer.vb">
+      <DependentUpon>frm_MixOrderO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLCostingEditMixNew.Designer.vb">
+      <DependentUpon>frm_DCLCostingEditMixNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCostingEditMixNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLCostingEditMix.Designer.vb">
+      <DependentUpon>frm_DCLCostingEditMix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCostingEditMix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LabCertify.Designer.vb">
+      <DependentUpon>frm_LabCertify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LabCertify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectAccept.Designer.vb">
+      <DependentUpon>frm_MixAssortRejectAccept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectAccept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReportsFinance.Designer.vb">
+      <DependentUpon>frm_DCLReportsFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReportsFinance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KITConfirmOrders.Designer.vb">
+      <DependentUpon>frm_KITConfirmOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KITConfirmOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KITFinishOrders.Designer.vb">
+      <DependentUpon>frm_KITFinishOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KITFinishOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KITReports.Designer.vb">
+      <DependentUpon>frm_KITReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KITReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KITPacket.Designer.vb">
+      <DependentUpon>frm_KITPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KITPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KITOrder.Designer.vb">
+      <DependentUpon>frm_KITOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KITOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghSortModel.Designer.vb">
+      <DependentUpon>frm_RghSortModel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghSortModel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcelFinish.Designer.vb">
+      <DependentUpon>frm_DCLParcelFinish.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcelFinish.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLLineNoSearch.Designer.vb">
+      <DependentUpon>frm_DCLLineNoSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLLineNoSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLLotIDSearch.Designer.vb">
+      <DependentUpon>frm_DCLLotIDSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLLotIDSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDCheckingDetails.Designer.vb">
+      <DependentUpon>frm_GRDCheckingDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDCheckingDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSizingSection.Designer.vb">
+      <DependentUpon>frm_GRDSizingSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSizingSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LabEntry.designer.vb">
+      <DependentUpon>frm_LabEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LabEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns16.Designer.vb">
+      <DependentUpon>frm_MixFinishReturns16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixHalfIssues15.Designer.vb">
+      <DependentUpon>frm_MixHalfIssues15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixHalfIssues15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HRDReports.Designer.vb">
+      <DependentUpon>frm_HRDReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HRDReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketOpen.Designer.vb">
+      <DependentUpon>frm_MixPacketOpen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketOpen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReturnEntry.Designer.vb">
+      <DependentUpon>frm_DCLReturnEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReturnEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFound.Designer.vb">
+      <DependentUpon>frm_DCLFound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HRDAssessment.Designer.vb">
+      <DependentUpon>frm_HRDAssessment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HRDAssessment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixBoilingReturnManual.Designer.vb">
+      <DependentUpon>frm_MixBoilingReturnManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixBoilingReturnManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixBoilingManual.Designer.vb">
+      <DependentUpon>frm_MixBoilingManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixBoilingManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPackingPrint.Designer.vb">
+      <DependentUpon>frm_MixPackingPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPackingPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixSectionBoil.Designer.vb">
+      <DependentUpon>frm_MixSectionBoil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixSectionBoil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns15.Designer.vb">
+      <DependentUpon>frm_MixFinishReturns15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns18.Designer.vb">
+      <DependentUpon>frm_MixFinishReturns18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketFlow.Designer.vb">
+      <DependentUpon>frm_MixPacketFlow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketFlow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcelOpen.Designer.vb">
+      <DependentUpon>frm_DCLParcelOpen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcelOpen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLLab.Designer.vb">
+      <DependentUpon>frm_DCLLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLMonthEnd.Designer.vb">
+      <DependentUpon>frm_DCLMonthEnd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLMonthEnd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDAcceptBagSend.Designer.vb">
+      <DependentUpon>frm_GRDAcceptBagSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDAcceptBagSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDAcceptBag.Designer.vb">
+      <DependentUpon>frm_GRDAcceptBag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDAcceptBag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketAccept.Designer.vb">
+      <DependentUpon>frm_MixPacketAccept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketAccept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDAcceptRounds.Designer.vb">
+      <DependentUpon>frm_GRDAcceptRounds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDAcceptRounds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingIssue.Designer.vb">
+      <DependentUpon>frm_ExpSizingIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryModifyRnd.Designer.vb">
+      <DependentUpon>frm_GRDExportSummaryModifyRnd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryModifyRnd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryRnd.Designer.vb">
+      <DependentUpon>frm_GRDExportSummaryRnd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryRnd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDFinishRounds.Designer.vb">
+      <DependentUpon>frm_GRDFinishRounds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDFinishRounds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixByPass.Designer.vb">
+      <DependentUpon>frm_MixByPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixByPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRoundsDetails.Designer.vb">
+      <DependentUpon>frm_GRDRoundsDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRoundsDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortUpdate.Designer.vb">
+      <DependentUpon>frm_MixAssortUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixBoilingIssue.Designer.vb">
+      <DependentUpon>frm_MixBoilingIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixBoilingIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixIssueEntry.Designer.vb">
+      <DependentUpon>frm_MixIssueEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixIssueEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns.Designer.vb">
+      <DependentUpon>frm_MixFinishReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BagTransfer.Designer.vb">
+      <DependentUpon>frm_BagTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BagTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixRejectEditor.Designer.vb">
+      <DependentUpon>frm_MixRejectEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixRejectEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixRepairReturn.Designer.vb">
+      <DependentUpon>frm_MixRepairReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixRepairReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixBoilingReturn.Designer.vb">
+      <DependentUpon>frm_MixBoilingReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixBoilingReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketPrint.Designer.vb">
+      <DependentUpon>frm_MixPacketPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderT.Designer.vb">
+      <DependentUpon>frm_MixOrderT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixApprovalSRW.Designer.vb">
+      <DependentUpon>frm_MixApprovalSRW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixApprovalSRW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectSend.Designer.vb">
+      <DependentUpon>frm_MixAssortRejectSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingSend.Designer.vb">
+      <DependentUpon>frm_ExpSizingSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BagIncentive.Designer.vb">
+      <DependentUpon>frm_BagIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BagIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLAssortUpload.Designer.vb">
+      <DependentUpon>frm_DCLAssortUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLAssortUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLEditReturns.Designer.vb">
+      <DependentUpon>frm_DCLEditReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLEditReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLEmpProduction.Designer.vb">
+      <DependentUpon>frm_DCLEmpProduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLEmpProduction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFMUpload.Designer.vb">
+      <DependentUpon>frm_DCLFMUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFMUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportSticker.Designer.vb">
+      <DependentUpon>frm_DCLImportSticker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportSticker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcelSelection.Designer.vb">
+      <DependentUpon>frm_DCLParcelSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcelSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcelSummary.Designer.vb">
+      <DependentUpon>frm_DCLParcelSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcelSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLRejectDetails.Designer.vb">
+      <DependentUpon>frm_DCLRejectDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLRejectDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLRghRejectsPack.Designer.vb">
+      <DependentUpon>frm_DCLRghRejectsPack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLRghRejectsPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLTurnOver.Designer.vb">
+      <DependentUpon>frm_DCLTurnOver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLTurnOver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpAssortModify.Designer.vb">
+      <DependentUpon>frm_ExpAssortModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpAssortModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpOrderPlan.Designer.vb">
+      <DependentUpon>frm_ExpOrderPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpOrderPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpPacket.Designer.vb">
+      <DependentUpon>frm_ExpPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpRejectBox.Designer.vb">
+      <DependentUpon>frm_ExpRejectBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpRejectBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingApproval.Designer.vb">
+      <DependentUpon>frm_ExpSizingApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLWeightLoss.Designer.vb">
+      <DependentUpon>frm_DCLWeightLoss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLWeightLoss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpReports2.Designer.vb">
+      <DependentUpon>frm_ExpReports2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpReports2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDBoilingReturn.Designer.vb">
+      <DependentUpon>frm_GRDBoilingReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDBoilingReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDBundle.Designer.vb">
+      <DependentUpon>frm_GRDBundle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDBundle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDCheckingIssue.Designer.vb">
+      <DependentUpon>frm_GRDCheckingIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDCheckingIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDReports3.designer.vb">
+      <DependentUpon>frm_GRDReports3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDReports3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSizingEdit.Designer.vb">
+      <DependentUpon>frm_GRDSizingEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSizingEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSizingIssue.Designer.vb">
+      <DependentUpon>frm_GRDSizingIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSizingIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectTransfer.Designer.vb">
+      <DependentUpon>frm_MixAssortRejectTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixBoiling.Designer.vb">
+      <DependentUpon>frm_MixBoiling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixBoiling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixEmpIssues.Designer.vb">
+      <DependentUpon>frm_MixEmpIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixEmpIssues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishOrdersEdit.Designer.vb">
+      <DependentUpon>frm_MixFinishOrdersEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishOrdersEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixGrooveVerification.Designer.vb">
+      <DependentUpon>frm_MixGrooveVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixGrooveVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixIncentive.Designer.vb">
+      <DependentUpon>frm_MixIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixSectionRep.Designer.vb">
+      <DependentUpon>frm_MixSectionRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixSectionRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixShipmentPlan2.Designer.vb">
+      <DependentUpon>frm_MixShipmentPlan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixShipmentPlan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLCostingEdit.Designer.vb">
+      <DependentUpon>frm_DCLCostingEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCostingEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLDashboard.Designer.vb">
+      <DependentUpon>frm_DCLDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLExportPlan.Designer.vb">
+      <DependentUpon>frm_DCLExportPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLExportPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFantacyAnalyzer.Designer.vb">
+      <DependentUpon>frm_DCLFantacyAnalyzer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFantacyAnalyzer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFantacySchema.Designer.vb">
+      <DependentUpon>frm_DCLFantacySchema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFantacySchema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLInvoice.Designer.vb">
+      <DependentUpon>frm_DCLInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryPCU.Designer.vb">
+      <DependentUpon>frm_GRDExportSummaryPCU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryPCU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLRghRejects.Designer.vb">
+      <DependentUpon>frm_DCLRghRejects.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLRghRejects.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDMixTransfer.Designer.vb">
+      <DependentUpon>frm_GRDMixTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDMixTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HRDIncentive.Designer.vb">
+      <DependentUpon>frm_HRDIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HRDIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortModify.Designer.vb">
+      <DependentUpon>frm_MixAssortModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectVerify.Designer.vb">
+      <DependentUpon>frm_MixAssortRejectVerify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortRejectVerify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderGrp.Designer.vb">
+      <DependentUpon>frm_MixOrderGrp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderGrp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrderSolver.Designer.vb">
+      <DependentUpon>frm_MixOrderSolver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrderSolver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketGrp.Designer.vb">
+      <DependentUpon>frm_MixPacketGrp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketGrp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacketVerify.Designer.vb">
+      <DependentUpon>frm_MixPacketVerify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacketVerify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPackingUpload.Designer.vb">
+      <DependentUpon>frm_MixPackingUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPackingUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixStockAccept.Designer.vb">
+      <DependentUpon>frm_MixStockAccept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixStockAccept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POLModifyAssort.Designer.vb">
+      <DependentUpon>frm_POLModifyAssort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POLModifyAssort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POMModify.Designer.vb">
+      <DependentUpon>frm_POMModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POMModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BagPacket.Designer.vb">
+      <DependentUpon>frm_BagPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BagPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BagReports.Designer.vb">
+      <DependentUpon>frm_BagReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BagReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BagSection.Designer.vb">
+      <DependentUpon>frm_BagSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BagSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLCheckIn.Designer.vb">
+      <DependentUpon>frm_DCLCheckIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLCosting.Designer.vb">
+      <DependentUpon>frm_DCLCosting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCosting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLDeptTrans.Designer.vb">
+      <DependentUpon>frm_DCLDeptTrans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLDeptTrans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLDeptTransLot.Designer.vb">
+      <DependentUpon>frm_DCLDeptTransLot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLDeptTransLot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLExportVerification.Designer.vb">
+      <DependentUpon>frm_DCLExportVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLExportVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFantacySalesSchema.Designer.vb">
+      <DependentUpon>frm_DCLFantacySalesSchema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFantacySalesSchema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFinalRepair.Designer.vb">
+      <DependentUpon>frm_DCLFinalRepair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFinalRepair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLFinishParcel.Designer.vb">
+      <DependentUpon>frm_DCLFinishParcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLFinishParcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportEdit.Designer.vb">
+      <DependentUpon>frm_DCLImportEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportPriceEdit.Designer.vb">
+      <DependentUpon>frm_DCLImportPriceEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportPriceEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImportUpload.Designer.vb">
+      <DependentUpon>frm_DCLImportUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImportUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLIssueEntry.Designer.vb">
+      <DependentUpon>frm_DCLIssueEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLIssueEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLLotApproval.Designer.vb">
+      <DependentUpon>frm_DCLLotApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLLotApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLLotApprovalAcc.Designer.vb">
+      <DependentUpon>frm_DCLLotApprovalAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLLotApprovalAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLPacketAccept.Designer.vb">
+      <DependentUpon>frm_DCLPacketAccept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLPacketAccept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLPackingList.Designer.vb">
+      <DependentUpon>frm_DCLPackingList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLPackingList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcel.Designer.vb">
+      <DependentUpon>frm_DCLParcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLParcelComplete.Designer.vb">
+      <DependentUpon>frm_DCLParcelComplete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLParcelComplete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReportsCommon.Designer.vb">
+      <DependentUpon>frm_DCLReportsCommon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReportsCommon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReportsNiru.Designer.vb">
+      <DependentUpon>frm_DCLReportsNiru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReportsNiru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReportViewer.Designer.vb">
+      <DependentUpon>frm_DCLReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLImport.Designer.vb">
+      <DependentUpon>frm_DCLImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReportViewer2.Designer.vb">
+      <DependentUpon>frm_DCLReportViewer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReportViewer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLSupplier.Designer.vb">
+      <DependentUpon>frm_DCLSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLSwipe.Designer.vb">
+      <DependentUpon>frm_DCLSwipe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLSwipe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpReports.Designer.vb">
+      <DependentUpon>frm_ExpReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpRghIssues.Designer.vb">
+      <DependentUpon>frm_ExpRghIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpRghIssues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSection.Designer.vb">
+      <DependentUpon>frm_ExpSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingExport.Designer.vb">
+      <DependentUpon>frm_ExpSizingExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingPacket.Designer.vb">
+      <DependentUpon>frm_ExpSizingPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingSection.Designer.vb">
+      <DependentUpon>frm_ExpSizingSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingTransfer.Designer.vb">
+      <DependentUpon>frm_ExpSizingTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExpSizingVerify.Designer.vb">
+      <DependentUpon>frm_ExpSizingVerify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExpSizingVerify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExtPacket.Designer.vb">
+      <DependentUpon>frm_ExtPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExtPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExtReports.Designer.vb">
+      <DependentUpon>frm_ExtReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExtReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExtSection.Designer.vb">
+      <DependentUpon>frm_ExtSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExtSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDAccept.Designer.vb">
+      <DependentUpon>frm_GRDAccept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDAccept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDBoiling.Designer.vb">
+      <DependentUpon>frm_GRDBoiling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDBoiling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDBoxFM.Designer.vb">
+      <DependentUpon>frm_GRDBoxFM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDBoxFM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummary.Designer.vb">
+      <DependentUpon>frm_GRDExportSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryExport.Designer.vb">
+      <DependentUpon>frm_GRDExportSummaryExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryModify.Designer.vb">
+      <DependentUpon>frm_GRDExportSummaryModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDExportSummaryModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDFinish.Designer.vb">
+      <DependentUpon>frm_GRDFinish.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDFinish.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDParcel.Designer.vb">
+      <DependentUpon>frm_GRDParcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDParcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRepair.Designer.vb">
+      <DependentUpon>frm_GRDRepair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRepair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDReports.designer.vb">
+      <DependentUpon>frm_GRDReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDReports2.designer.vb">
+      <DependentUpon>frm_GRDReports2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDReports2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDRghIssues.Designer.vb">
+      <DependentUpon>frm_GRDRghIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDRghIssues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSection.Designer.vb">
+      <DependentUpon>frm_GRDSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GRDSizingPacket.Designer.vb">
+      <DependentUpon>frm_GRDSizingPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GRDSizingPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortExport.Designer.vb">
+      <DependentUpon>frm_MixAssortExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortHistory.Designer.vb">
+      <DependentUpon>frm_MixAssortHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortReject.Designer.vb">
+      <DependentUpon>frm_MixAssortReject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortReject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixAssortStock.Designer.vb">
+      <DependentUpon>frm_MixAssortStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixAssortStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixConfirmOrders.Designer.vb">
+      <DependentUpon>frm_MixConfirmOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixConfirmOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixEditReturns.Designer.vb">
+      <DependentUpon>frm_MixEditReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixEditReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixFinishOrders.Designer.vb">
+      <DependentUpon>frm_MixFinishOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixFinishOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixIntIssues.Designer.vb">
+      <DependentUpon>frm_MixIntIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixIntIssues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixOrder.Designer.vb">
+      <DependentUpon>frm_MixOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixPacket.Designer.vb">
+      <DependentUpon>frm_MixPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixReports.Designer.vb">
+      <DependentUpon>frm_MixReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixSection.Designer.vb">
+      <DependentUpon>frm_MixSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixShipmentPlan.Designer.vb">
+      <DependentUpon>frm_MixShipmentPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixShipmentPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixSolver.Designer.vb">
+      <DependentUpon>frm_MixSolver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixSolver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixStoneReq.Designer.vb">
+      <DependentUpon>frm_MixStoneReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixStoneReq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MixStoneReqNew.Designer.vb">
+      <DependentUpon>frm_MixStoneReqNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MixStoneReqNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NiruStockUpload.Designer.vb">
+      <DependentUpon>frm_NiruStockUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NiruStockUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUCompleteOrders.Designer.vb">
+      <DependentUpon>frm_PCUCompleteOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUCompleteOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUEditReturns.Designer.vb">
+      <DependentUpon>frm_PCUEditReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUEditReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUFinishOrders.Designer.vb">
+      <DependentUpon>frm_PCUFinishOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUFinishOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUOrder.Designer.vb">
+      <DependentUpon>frm_PCUOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUPacket.Designer.vb">
+      <DependentUpon>frm_PCUPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUReports.Designer.vb">
+      <DependentUpon>frm_PCUReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PCUSection.Designer.vb">
+      <DependentUpon>frm_PCUSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PCUSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POLModify.Designer.vb">
+      <DependentUpon>frm_POLModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POLModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POLTransfer.Designer.vb">
+      <DependentUpon>frm_POLTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POLTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrIncentive.Designer.vb">
+      <DependentUpon>frm_PrIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrPacket.Designer.vb">
+      <DependentUpon>frm_PrPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrReports.Designer.vb">
+      <DependentUpon>frm_PrReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrSection.Designer.vb">
+      <DependentUpon>frm_PrSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghMixTrf.Designer.vb">
+      <DependentUpon>frm_RghMixTrf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghMixTrf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghPacket.Designer.vb">
+      <DependentUpon>frm_RghPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLReports.Designer.vb">
+      <DependentUpon>frm_DCLReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghPacketIssue.Designer.vb">
+      <DependentUpon>frm_RghPacketIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghPacketIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghReports.Designer.vb">
+      <DependentUpon>frm_RghReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghSection.Designer.vb">
+      <DependentUpon>frm_RghSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DCLByPass.Designer.vb">
+      <DependentUpon>frm_DCLByPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLByPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghSort.Designer.vb">
+      <DependentUpon>frm_RghSort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghSort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RghSortPrice.Designer.vb">
+      <DependentUpon>frm_RghSortPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RghSortPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndIncentive.Designer.vb">
+      <DependentUpon>frm_RndIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndPacket.Designer.vb">
+      <DependentUpon>frm_RndPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndPacketEdit.Designer.vb">
+      <DependentUpon>frm_RndPacketEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndPacketEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndPacketEditPol.Designer.vb">
+      <DependentUpon>frm_RndPacketEditPol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndPacketEditPol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndParcelAnalysis.Designer.vb">
+      <DependentUpon>frm_RndParcelAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndParcelAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndReports.Designer.vb">
+      <DependentUpon>frm_RndReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndSection.Designer.vb">
+      <DependentUpon>frm_RndSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndSectionDetails.Designer.vb">
+      <DependentUpon>frm_RndSectionDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndSectionDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RndUpload.Designer.vb">
+      <DependentUpon>frm_RndUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RndUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprBrutingRounds.Designer.vb">
+      <DependentUpon>frm_RprBrutingRounds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprBrutingRounds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprByPass.Designer.vb">
+      <DependentUpon>frm_RprByPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprByPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprByPassOne.Designer.vb">
+      <DependentUpon>frm_RprByPassOne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprByPassOne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprByPassOpr.Designer.vb">
+      <DependentUpon>frm_RprByPassOpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprByPassOpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprEntry.Designer.vb">
+      <DependentUpon>frm_RprEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprIncentive.Designer.vb">
+      <DependentUpon>frm_RprIncentive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprIncentive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPacket.Designer.vb">
+      <DependentUpon>frm_RprPacket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPacket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPacketAuto.Designer.vb">
+      <DependentUpon>frm_RprPacketAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPacketAuto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPacketTransfer.Designer.vb">
+      <DependentUpon>frm_RprPacketTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPacketTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprParcel.Designer.vb">
+      <DependentUpon>frm_RprParcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprParcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprPrice.Designer.vb">
+      <DependentUpon>frm_RprPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RprSection.Designer.vb">
+      <DependentUpon>frm_RprSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RprSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SYSLogin.Designer.vb">
+      <DependentUpon>frm_SYSLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SYSLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SYSUserChange.Designer.vb">
+      <DependentUpon>frm_SYSUserChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SYSUserChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_POMTransfer.Designer.vb">
+      <DependentUpon>frm_POMTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_POMTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SYSUserRights.Designer.vb">
+      <DependentUpon>frm_SYSUserRights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SYSUserRights.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HazelDev Theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mdiMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiMain.Designer.vb">
+      <DependentUpon>mdiMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdlFunctions.vb" />
+    <Compile Include="mdlNiruBridge.vb" />
+    <Compile Include="mdlVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frm_DCLCostingDelete.Designer.vb">
+      <DependentUpon>frm_DCLCostingDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DCLCostingDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_GRDRnd_AssortComp.resx">
+      <DependentUpon>frm_GRDRnd_AssortComp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Boiling.resx">
+      <DependentUpon>frm_GRDRnd_Boiling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Bundle.resx">
+      <DependentUpon>frm_GRDRnd_Bundle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Export.resx">
+      <DependentUpon>frm_GRDRnd_Export.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_ExportSummary.resx">
+      <DependentUpon>frm_GRDRnd_ExportSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_ExportSummaryBundle.resx">
+      <DependentUpon>frm_GRDRnd_ExportSummaryBundle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_ExportSummaryModify.resx">
+      <DependentUpon>frm_GRDRnd_ExportSummaryModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_HOT_Company.resx">
+      <DependentUpon>frm_GRDRnd_HOT_Company.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Niru_Invoice.resx">
+      <DependentUpon>frm_GRDRnd_Niru_Invoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Packet.resx">
+      <DependentUpon>frm_GRDRnd_Packet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_PacketUpload.resx">
+      <DependentUpon>frm_GRDRnd_PacketUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Parcels.resx">
+      <DependentUpon>frm_GRDRnd_Parcels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_PAY_Excel_Upload.resx">
+      <DependentUpon>frm_GRDRnd_PAY_Excel_Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Reports.resx">
+      <DependentUpon>frm_GRDRnd_Reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Sizing.resx">
+      <DependentUpon>frm_GRDRnd_Sizing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_SizingPacket.resx">
+      <DependentUpon>frm_GRDRnd_SizingPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRnd_Upload.resx">
+      <DependentUpon>frm_GRDRnd_Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUPacketGrp.resx">
+      <DependentUpon>frm_PCUPacketGrp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HRDPerformance.resx">
+      <DependentUpon>frm_HRDPerformance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SYSUserNames.resx">
+      <DependentUpon>frm_SYSUserNames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpAssortUpload.resx">
+      <DependentUpon>frm_ExpAssortUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndReportsLB.resx">
+      <DependentUpon>frm_RndReportsLB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprIssueEntry.resx">
+      <DependentUpon>frm_RprIssueEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDBox.resx">
+      <DependentUpon>frm_GRDBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLTraceUpload.resx">
+      <DependentUpon>frm_DCLTraceUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POLHistory.resx">
+      <DependentUpon>frm_POLHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPacketAdmin.resx">
+      <DependentUpon>frm_RprPacketAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderImage.resx">
+      <DependentUpon>frm_MixOrderImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixConfirmOrdersEdit.resx">
+      <DependentUpon>frm_MixConfirmOrdersEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSizingModify.resx">
+      <DependentUpon>frm_GRDSizingModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixApprovalSRWNew.resx">
+      <DependentUpon>frm_MixApprovalSRWNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLGatePass.resx">
+      <DependentUpon>frm_DCLGatePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPlanValue.resx">
+      <DependentUpon>frm_RprPlanValue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpAssortPriceUpdate.resx">
+      <DependentUpon>frm_ExpAssortPriceUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportOriginal.resx">
+      <DependentUpon>frm_DCLImportOriginal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpAssortPacket.resx">
+      <DependentUpon>frm_ExpAssortPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpAssortSizing.resx">
+      <DependentUpon>frm_ExpAssortSizing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprUpload.resx">
+      <DependentUpon>frm_RprUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixEditReturns16.resx">
+      <DependentUpon>frm_MixEditReturns16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HRDIncentiveNew.resx">
+      <DependentUpon>frm_HRDIncentiveNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprFinishTransfer.resx">
+      <DependentUpon>frm_RprFinishTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderGrp2.resx">
+      <DependentUpon>frm_MixOrderGrp2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportCusDecVerify.resx">
+      <DependentUpon>frm_DCLImportCusDecVerify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportScan.resx">
+      <DependentUpon>frm_DCLImportScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportCusDec.resx">
+      <DependentUpon>frm_DCLImportCusDec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportOGL.resx">
+      <DependentUpon>frm_DCLImportOGL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpRejects.resx">
+      <DependentUpon>frm_ExpRejects.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderApproval.resx">
+      <DependentUpon>frm_MixOrderApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOfferUpload.resx">
+      <DependentUpon>frm_MixOfferUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderUpload.resx">
+      <DependentUpon>frm_MixOrderUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderO.resx">
+      <DependentUpon>frm_MixOrderO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCostingEditMixNew.resx">
+      <DependentUpon>frm_DCLCostingEditMixNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCostingEditMix.resx">
+      <DependentUpon>frm_DCLCostingEditMix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LabCertify.resx">
+      <DependentUpon>frm_LabCertify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortRejectAccept.resx">
+      <DependentUpon>frm_MixAssortRejectAccept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReportsFinance.resx">
+      <DependentUpon>frm_DCLReportsFinance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KITConfirmOrders.resx">
+      <DependentUpon>frm_KITConfirmOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KITFinishOrders.resx">
+      <DependentUpon>frm_KITFinishOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KITReports.resx">
+      <DependentUpon>frm_KITReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KITPacket.resx">
+      <DependentUpon>frm_KITPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KITOrder.resx">
+      <DependentUpon>frm_KITOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghSortModel.resx">
+      <DependentUpon>frm_RghSortModel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCostingDelete.resx">
+      <DependentUpon>frm_DCLCostingDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcelFinish.resx">
+      <DependentUpon>frm_DCLParcelFinish.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLLineNoSearch.resx">
+      <DependentUpon>frm_DCLLineNoSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLLotIDSearch.resx">
+      <DependentUpon>frm_DCLLotIDSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDCheckingDetails.resx">
+      <DependentUpon>frm_GRDCheckingDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSizingSection.resx">
+      <DependentUpon>frm_GRDSizingSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LabEntry.resx">
+      <DependentUpon>frm_LabEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishReturns16.resx">
+      <DependentUpon>frm_MixFinishReturns16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixHalfIssues15.resx">
+      <DependentUpon>frm_MixHalfIssues15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HRDReports.resx">
+      <DependentUpon>frm_HRDReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketOpen.resx">
+      <DependentUpon>frm_MixPacketOpen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReturnEntry.resx">
+      <DependentUpon>frm_DCLReturnEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFound.resx">
+      <DependentUpon>frm_DCLFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HRDAssessment.resx">
+      <DependentUpon>frm_HRDAssessment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixBoilingReturnManual.resx">
+      <DependentUpon>frm_MixBoilingReturnManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixBoilingManual.resx">
+      <DependentUpon>frm_MixBoilingManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPackingPrint.resx">
+      <DependentUpon>frm_MixPackingPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixSectionBoil.resx">
+      <DependentUpon>frm_MixSectionBoil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishReturns15.resx">
+      <DependentUpon>frm_MixFinishReturns15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishReturns18.resx">
+      <DependentUpon>frm_MixFinishReturns18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketFlow.resx">
+      <DependentUpon>frm_MixPacketFlow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcelOpen.resx">
+      <DependentUpon>frm_DCLParcelOpen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLLab.resx">
+      <DependentUpon>frm_DCLLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLMonthEnd.resx">
+      <DependentUpon>frm_DCLMonthEnd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDAcceptBagSend.resx">
+      <DependentUpon>frm_GRDAcceptBagSend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDAcceptBag.resx">
+      <DependentUpon>frm_GRDAcceptBag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketAccept.resx">
+      <DependentUpon>frm_MixPacketAccept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDAcceptRounds.resx">
+      <DependentUpon>frm_GRDAcceptRounds.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingIssue.resx">
+      <DependentUpon>frm_ExpSizingIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummaryModifyRnd.resx">
+      <DependentUpon>frm_GRDExportSummaryModifyRnd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummaryRnd.resx">
+      <DependentUpon>frm_GRDExportSummaryRnd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDFinishRounds.resx">
+      <DependentUpon>frm_GRDFinishRounds.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixByPass.resx">
+      <DependentUpon>frm_MixByPass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRoundsDetails.resx">
+      <DependentUpon>frm_GRDRoundsDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortUpdate.resx">
+      <DependentUpon>frm_MixAssortUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixBoilingIssue.resx">
+      <DependentUpon>frm_MixBoilingIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixIssueEntry.resx">
+      <DependentUpon>frm_MixIssueEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishReturns.resx">
+      <DependentUpon>frm_MixFinishReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BagTransfer.resx">
+      <DependentUpon>frm_BagTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixRejectEditor.resx">
+      <DependentUpon>frm_MixRejectEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixRepairReturn.resx">
+      <DependentUpon>frm_MixRepairReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixBoilingReturn.resx">
+      <DependentUpon>frm_MixBoilingReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketPrint.resx">
+      <DependentUpon>frm_MixPacketPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderT.resx">
+      <DependentUpon>frm_MixOrderT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixApprovalSRW.resx">
+      <DependentUpon>frm_MixApprovalSRW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortRejectSend.resx">
+      <DependentUpon>frm_MixAssortRejectSend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingSend.resx">
+      <DependentUpon>frm_ExpSizingSend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BagIncentive.resx">
+      <DependentUpon>frm_BagIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLAssortUpload.resx">
+      <DependentUpon>frm_DCLAssortUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLEditReturns.resx">
+      <DependentUpon>frm_DCLEditReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLEmpProduction.resx">
+      <DependentUpon>frm_DCLEmpProduction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFMUpload.resx">
+      <DependentUpon>frm_DCLFMUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportSticker.resx">
+      <DependentUpon>frm_DCLImportSticker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcelSelection.resx">
+      <DependentUpon>frm_DCLParcelSelection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcelSummary.resx">
+      <DependentUpon>frm_DCLParcelSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLRejectDetails.resx">
+      <DependentUpon>frm_DCLRejectDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLRghRejectsPack.resx">
+      <DependentUpon>frm_DCLRghRejectsPack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLTurnOver.resx">
+      <DependentUpon>frm_DCLTurnOver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpAssortModify.resx">
+      <DependentUpon>frm_ExpAssortModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpOrderPlan.resx">
+      <DependentUpon>frm_ExpOrderPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpPacket.resx">
+      <DependentUpon>frm_ExpPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpRejectBox.resx">
+      <DependentUpon>frm_ExpRejectBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingApproval.resx">
+      <DependentUpon>frm_ExpSizingApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLWeightLoss.resx">
+      <DependentUpon>frm_DCLWeightLoss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpReports2.resx">
+      <DependentUpon>frm_ExpReports2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDBoilingReturn.resx">
+      <DependentUpon>frm_GRDBoilingReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDBundle.resx">
+      <DependentUpon>frm_GRDBundle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDCheckingIssue.resx">
+      <DependentUpon>frm_GRDCheckingIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDReports3.resx">
+      <DependentUpon>frm_GRDReports3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSizingEdit.resx">
+      <DependentUpon>frm_GRDSizingEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSizingIssue.resx">
+      <DependentUpon>frm_GRDSizingIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortRejectTransfer.resx">
+      <DependentUpon>frm_MixAssortRejectTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixBoiling.resx">
+      <DependentUpon>frm_MixBoiling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixEmpIssues.resx">
+      <DependentUpon>frm_MixEmpIssues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishOrdersEdit.resx">
+      <DependentUpon>frm_MixFinishOrdersEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixGrooveVerification.resx">
+      <DependentUpon>frm_MixGrooveVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixIncentive.resx">
+      <DependentUpon>frm_MixIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixSectionRep.resx">
+      <DependentUpon>frm_MixSectionRep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixShipmentPlan2.resx">
+      <DependentUpon>frm_MixShipmentPlan2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCostingEdit.resx">
+      <DependentUpon>frm_DCLCostingEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLDashboard.resx">
+      <DependentUpon>frm_DCLDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLExportPlan.resx">
+      <DependentUpon>frm_DCLExportPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFantacyAnalyzer.resx">
+      <DependentUpon>frm_DCLFantacyAnalyzer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFantacySchema.resx">
+      <DependentUpon>frm_DCLFantacySchema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLInvoice.resx">
+      <DependentUpon>frm_DCLInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummaryPCU.resx">
+      <DependentUpon>frm_GRDExportSummaryPCU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLRghRejects.resx">
+      <DependentUpon>frm_DCLRghRejects.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDMixTransfer.resx">
+      <DependentUpon>frm_GRDMixTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HRDIncentive.resx">
+      <DependentUpon>frm_HRDIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortModify.resx">
+      <DependentUpon>frm_MixAssortModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortRejectVerify.resx">
+      <DependentUpon>frm_MixAssortRejectVerify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderGrp.resx">
+      <DependentUpon>frm_MixOrderGrp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrderSolver.resx">
+      <DependentUpon>frm_MixOrderSolver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketGrp.resx">
+      <DependentUpon>frm_MixPacketGrp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacketVerify.resx">
+      <DependentUpon>frm_MixPacketVerify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPackingUpload.resx">
+      <DependentUpon>frm_MixPackingUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixStockAccept.resx">
+      <DependentUpon>frm_MixStockAccept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POLModifyAssort.resx">
+      <DependentUpon>frm_POLModifyAssort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POMModify.resx">
+      <DependentUpon>frm_POMModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BagPacket.resx">
+      <DependentUpon>frm_BagPacket.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BagReports.resx">
+      <DependentUpon>frm_BagReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BagSection.resx">
+      <DependentUpon>frm_BagSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCheckIn.resx">
+      <DependentUpon>frm_DCLCheckIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLCosting.resx">
+      <DependentUpon>frm_DCLCosting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLDeptTrans.resx">
+      <DependentUpon>frm_DCLDeptTrans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLDeptTransLot.resx">
+      <DependentUpon>frm_DCLDeptTransLot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLExportVerification.resx">
+      <DependentUpon>frm_DCLExportVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFantacySalesSchema.resx">
+      <DependentUpon>frm_DCLFantacySalesSchema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFinalRepair.resx">
+      <DependentUpon>frm_DCLFinalRepair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLFinishParcel.resx">
+      <DependentUpon>frm_DCLFinishParcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImport.resx">
+      <DependentUpon>frm_DCLImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportEdit.resx">
+      <DependentUpon>frm_DCLImportEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportPriceEdit.resx">
+      <DependentUpon>frm_DCLImportPriceEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLImportUpload.resx">
+      <DependentUpon>frm_DCLImportUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLIssueEntry.resx">
+      <DependentUpon>frm_DCLIssueEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLLotApproval.resx">
+      <DependentUpon>frm_DCLLotApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLLotApprovalAcc.resx">
+      <DependentUpon>frm_DCLLotApprovalAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLPacketAccept.resx">
+      <DependentUpon>frm_DCLPacketAccept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLPackingList.resx">
+      <DependentUpon>frm_DCLPackingList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcel.resx">
+      <DependentUpon>frm_DCLParcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLParcelComplete.resx">
+      <DependentUpon>frm_DCLParcelComplete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReportsCommon.resx">
+      <DependentUpon>frm_DCLReportsCommon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReportsNiru.resx">
+      <DependentUpon>frm_DCLReportsNiru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReportViewer.resx">
+      <DependentUpon>frm_DCLReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReportViewer2.resx">
+      <DependentUpon>frm_DCLReportViewer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLSupplier.resx">
+      <DependentUpon>frm_DCLSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLSwipe.resx">
+      <DependentUpon>frm_DCLSwipe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpReports.resx">
+      <DependentUpon>frm_ExpReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpRghIssues.resx">
+      <DependentUpon>frm_ExpRghIssues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSection.resx">
+      <DependentUpon>frm_ExpSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingExport.resx">
+      <DependentUpon>frm_ExpSizingExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingPacket.resx">
+      <DependentUpon>frm_ExpSizingPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingSection.resx">
+      <DependentUpon>frm_ExpSizingSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingTransfer.resx">
+      <DependentUpon>frm_ExpSizingTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExpSizingVerify.resx">
+      <DependentUpon>frm_ExpSizingVerify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExtPacket.resx">
+      <DependentUpon>frm_ExtPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExtReports.resx">
+      <DependentUpon>frm_ExtReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExtSection.resx">
+      <DependentUpon>frm_ExtSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDAccept.resx">
+      <DependentUpon>frm_GRDAccept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDBoiling.resx">
+      <DependentUpon>frm_GRDBoiling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDBoxFM.resx">
+      <DependentUpon>frm_GRDBoxFM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummary.resx">
+      <DependentUpon>frm_GRDExportSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummaryExport.resx">
+      <DependentUpon>frm_GRDExportSummaryExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDExportSummaryModify.resx">
+      <DependentUpon>frm_GRDExportSummaryModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDFinish.resx">
+      <DependentUpon>frm_GRDFinish.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDParcel.resx">
+      <DependentUpon>frm_GRDParcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRepair.resx">
+      <DependentUpon>frm_GRDRepair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDReports.resx">
+      <DependentUpon>frm_GRDReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDReports2.resx">
+      <DependentUpon>frm_GRDReports2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDRghIssues.resx">
+      <DependentUpon>frm_GRDRghIssues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSection.resx">
+      <DependentUpon>frm_GRDSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GRDSizingPacket.resx">
+      <DependentUpon>frm_GRDSizingPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortExport.resx">
+      <DependentUpon>frm_MixAssortExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortHistory.resx">
+      <DependentUpon>frm_MixAssortHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortReject.resx">
+      <DependentUpon>frm_MixAssortReject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixAssortStock.resx">
+      <DependentUpon>frm_MixAssortStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixConfirmOrders.resx">
+      <DependentUpon>frm_MixConfirmOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixEditReturns.resx">
+      <DependentUpon>frm_MixEditReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixFinishOrders.resx">
+      <DependentUpon>frm_MixFinishOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixIntIssues.resx">
+      <DependentUpon>frm_MixIntIssues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixOrder.resx">
+      <DependentUpon>frm_MixOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixPacket.resx">
+      <DependentUpon>frm_MixPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixReports.resx">
+      <DependentUpon>frm_MixReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixSection.resx">
+      <DependentUpon>frm_MixSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixShipmentPlan.resx">
+      <DependentUpon>frm_MixShipmentPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixSolver.resx">
+      <DependentUpon>frm_MixSolver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixStoneReq.resx">
+      <DependentUpon>frm_MixStoneReq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MixStoneReqNew.resx">
+      <DependentUpon>frm_MixStoneReqNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NiruStockUpload.resx">
+      <DependentUpon>frm_NiruStockUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUCompleteOrders.resx">
+      <DependentUpon>frm_PCUCompleteOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUEditReturns.resx">
+      <DependentUpon>frm_PCUEditReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUFinishOrders.resx">
+      <DependentUpon>frm_PCUFinishOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUOrder.resx">
+      <DependentUpon>frm_PCUOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUPacket.resx">
+      <DependentUpon>frm_PCUPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUReports.resx">
+      <DependentUpon>frm_PCUReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PCUSection.resx">
+      <DependentUpon>frm_PCUSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POLModify.resx">
+      <DependentUpon>frm_POLModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POLTransfer.resx">
+      <DependentUpon>frm_POLTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrIncentive.resx">
+      <DependentUpon>frm_PrIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrPacket.resx">
+      <DependentUpon>frm_PrPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrReports.resx">
+      <DependentUpon>frm_PrReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrSection.resx">
+      <DependentUpon>frm_PrSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghMixTrf.resx">
+      <DependentUpon>frm_RghMixTrf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghPacket.resx">
+      <DependentUpon>frm_RghPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLReports.resx">
+      <DependentUpon>frm_DCLReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghPacketIssue.resx">
+      <DependentUpon>frm_RghPacketIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghReports.resx">
+      <DependentUpon>frm_RghReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghSection.resx">
+      <DependentUpon>frm_RghSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DCLByPass.resx">
+      <DependentUpon>frm_DCLByPass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghSort.resx">
+      <DependentUpon>frm_RghSort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RghSortPrice.resx">
+      <DependentUpon>frm_RghSortPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndIncentive.resx">
+      <DependentUpon>frm_RndIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndPacket.resx">
+      <DependentUpon>frm_RndPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndPacketEdit.resx">
+      <DependentUpon>frm_RndPacketEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndPacketEditPol.resx">
+      <DependentUpon>frm_RndPacketEditPol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndParcelAnalysis.resx">
+      <DependentUpon>frm_RndParcelAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndReports.resx">
+      <DependentUpon>frm_RndReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndSection.resx">
+      <DependentUpon>frm_RndSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndSectionDetails.resx">
+      <DependentUpon>frm_RndSectionDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RndUpload.resx">
+      <DependentUpon>frm_RndUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprBrutingRounds.resx">
+      <DependentUpon>frm_RprBrutingRounds.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprByPass.resx">
+      <DependentUpon>frm_RprByPass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprByPassOne.resx">
+      <DependentUpon>frm_RprByPassOne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprByPassOpr.resx">
+      <DependentUpon>frm_RprByPassOpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprEntry.resx">
+      <DependentUpon>frm_RprEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprIncentive.resx">
+      <DependentUpon>frm_RprIncentive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPacket.resx">
+      <DependentUpon>frm_RprPacket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPacketAuto.resx">
+      <DependentUpon>frm_RprPacketAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPacketTransfer.resx">
+      <DependentUpon>frm_RprPacketTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprParcel.resx">
+      <DependentUpon>frm_RprParcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprPrice.resx">
+      <DependentUpon>frm_RprPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RprSection.resx">
+      <DependentUpon>frm_RprSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SYSLogin.resx">
+      <DependentUpon>frm_SYSLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SYSUserChange.resx">
+      <DependentUpon>frm_SYSUserChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_POMTransfer.resx">
+      <DependentUpon>frm_POMTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SYSUserRights.resx">
+      <DependentUpon>frm_SYSUserRights.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiMain.resx">
+      <DependentUpon>mdiMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Instructor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
